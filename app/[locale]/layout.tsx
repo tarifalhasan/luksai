@@ -1,6 +1,8 @@
 import "@/styles/globals.css";
 import { Open_Sans as FontSans } from "next/font/google";
 
+import Header from "@/components/common/Header";
+import MobileHeader from "@/components/common/MobileHeader";
 import { cn } from "@/lib/utils";
 
 const fontSans = FontSans({
@@ -16,7 +18,7 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning>
       <head />
       <body
         className={cn(
@@ -24,6 +26,8 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Header />
+        <MobileHeader />
         {children}
       </body>
     </html>
