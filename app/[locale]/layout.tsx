@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 import { Open_Sans as FontSans } from "next/font/google";
 
+import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import MobileHeader from "@/components/common/MobileHeader";
 import { cn } from "@/lib/utils";
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Header />
         <MobileHeader />
         {children}
+        <Footer />
       </body>
     </html>
   );

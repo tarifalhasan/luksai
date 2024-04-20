@@ -58,6 +58,8 @@ const config = {
         },
         skin: {
           "blue-gray": "#5C5D7E",
+          "dark-900": "#000123",
+          "yellow-accent": "#FDD619",
         },
       },
       borderRadius: {
