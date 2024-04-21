@@ -1,19 +1,17 @@
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const HomeSession6 = () => {
+  const t = useTranslations("HomeSession6");
   return (
     <section className=" py-8 relative overflow-hidden lg:py-12">
       <div className=" relative  space-y-6 container">
         <div className=" max-w-[781px] block mx-auto space-y-3">
           <div>
-            <h2 className=" text-center">
-              Schedule a Demo Call with one of our team members
-            </h2>
+            <h2 className=" text-center">{t("title")}</h2>
           </div>
-          <p className=" text-center">
-            We are here to show how you can leverage your digital product.
-          </p>
+          <p className=" text-center">{t("description")}</p>
           <div>
             <Image
               width={696}
