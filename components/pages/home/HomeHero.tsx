@@ -1,22 +1,18 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { FaArrowRightLong, FaStar } from "react-icons/fa6";
 
 const HomeHero = () => {
+  const t = useTranslations("HomeSection1");
   return (
     <div className=" py-10 relative overflow-hidden container flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
       <div className=" space-y-6 xl:space-y-8  basis-[70%]">
-        <div>
-          <h2>
-            Share your knowledge <br className=" hidden lg:block" /> and become
-            a digital entrepreneur
-          </h2>
+        <div className="max-w-[625px]">
+          <h2 className="xl:text-6xl">{t("title")}</h2>
         </div>
-        <p className=" max-w-[625px] text-skin-blue-gray">
-          Be a talent multiplier and impact thousands of people by sharing your
-          years of professional experience in a digital product.
-        </p>
+        <p className=" max-w-[625px] text-skin-blue-gray">{t("description")}</p>
         <div>
           <Button className=" gap-4">
             Get Started <FaArrowRightLong />
@@ -53,7 +49,7 @@ const HomeHero = () => {
             </div>
             <div>
               <h5 className=" text-base font-bold text-skin-dark-900">
-                10K+ satisfied Users
+                {t("satisfied_user")}
               </h5>
             </div>
           </div>

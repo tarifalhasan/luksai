@@ -1,5 +1,20 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "HomeSection1": {
+    "title": "Share your knowledge and become a digital entrepreneur",
+    "description": "Be a talent multiplier and impact thousands of people by sharing your years of professional experience in a digital product.",
+    "satisfied_user": "10K+ satisfied Users"
+  },
+  "HomeSection2": {
+    "title": "Build your legacy while monetizing your knowledge ",
+    "description": "Create digital products and impact the lives of many with Luksai, an intuitive platform for managing and selling digital products. "
+  },
+  "HomeSession4": {
+    "title": "Create your own legacy today!",
+    "description": "Create an account for free",
+    "btnText": "Get Started"
+  },
+  "HomeSession5": {
+    "title": "An intuitive platform to accelerate your results",
+    "description": "We understand the difficulties and obstacles that newbie digital entrepreneurs face in this market. Thinking about your success, we created an intuitive platform to help you to manage and to sell your knowledge while building a legacy."
   }
 }
