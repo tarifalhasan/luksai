@@ -16,5 +16,46 @@
   "HomeSession5": {
     "title": "An intuitive platform to accelerate your results",
     "description": "We understand the difficulties and obstacles that newbie digital entrepreneurs face in this market. Thinking about your success, we created an intuitive platform to help you to manage and to sell your knowledge while building a legacy."
-  }
+  },
+  "HomeSession6": {
+    "title": "Schedule a Demo Call with one of our team members",
+    "description": "We are here to show how you can leverage your digital product.    "
+  },
+  "HomeSession7": {
+    "title": "What are people saying about Luksai"
+  },
+  "testimonialsData": [
+    {
+      "title": "Luksai is an amazing platform, it helped me get clients in different countries. And Now I help people around the world. And not only that, but also I have an amazing support from the Luksai team, there's always someone to help me any time.",
+      "author": {
+        "name": "Sophia Pachecco ",
+        "role": "Career Coach",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "Luksai is an amazing platform, it helped me get clients in different countries. And Now I help people around the world. And not only that, but also I have an amazing support from the Luksai team, there's always someone to help me any time.",
+      "author": {
+        "name": "Andrew Huang ",
+        "role": "Career Coach",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "Luksai is an amazing platform, it helped me get clients in different countries. And Now I help people around the world. And not only that, but also I have an amazing support from the Luksai team, there's always someone to help me any time.",
+      "author": {
+        "name": "Andrew Huang ",
+        "role": "Artist",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "We can be reached by phone, email, or WhatsApp. You can send us the documents. Currently, we are available to answer your questions",
+      "author": {
+        "name": "Andrew Huang ",
+        "role": "Artist",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    }
+  ]
 }
