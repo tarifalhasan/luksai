@@ -60,6 +60,7 @@ const config = {
           "blue-gray": "#5C5D7E",
           "dark-900": "#000123",
           "yellow-accent": "#FDD619",
+          "navy-blue": "#154E6B",
         },
       },
       borderRadius: {

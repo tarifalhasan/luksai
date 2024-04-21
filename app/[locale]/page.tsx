@@ -1,6 +1,11 @@
+import HomeHero from "@/components/pages/home/HomeHero";
 import { useTranslations } from "next-intl";
 
 export default function Index() {
   const t = useTranslations("Index");
-  return <h1>{t("title")}</h1>;
+  return (
+    <>
+      <HomeHero />
+    </>
+  );
 }
