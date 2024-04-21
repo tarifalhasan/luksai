@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import Session3VerticalStepper from "./Session3VerticalStepper";
 
 const HomeSection3 = () => {
   const t = useTranslations("HomeSection3");
@@ -12,6 +13,7 @@ const HomeSection3 = () => {
           {t("description")}
         </p>
       </div>
+      <Session3VerticalStepper />
     </section>
   );
 };
