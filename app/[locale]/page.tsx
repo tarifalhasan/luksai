@@ -2,6 +2,7 @@ import HomeHero from "@/components/pages/home/HomeHero";
 import Session2 from "@/components/pages/home/Session2";
 import HomeSession4 from "@/components/pages/home/Session4";
 import HomeSession5 from "@/components/pages/home/Session5";
+import HomeSession6 from "@/components/pages/home/Session6";
 
 export default function Index() {
   return (
@@ -10,6 +11,7 @@ export default function Index() {
       <Session2 />
       <HomeSession4 />
       <HomeSession5 />
+      <HomeSession6 />
     </>
   );
 }
