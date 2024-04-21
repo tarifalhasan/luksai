@@ -101,5 +101,9 @@
       "id": 3,
       "icon": "/images/home/session-10/support.svg"
     }
-  ]
+  ],
+  "solutionsHero": {
+    "title": "Solutions for Digital Content Creators",
+    "description": "Luksai is dedicated to empowering you with cutting-edge tools to monetize your expertise and craft personalized learning experiences. Our platform is built to help you create, manage, and sell your digital products, enabling you to focus on what you do best—inspiring and guiding others."
+  }
 }
