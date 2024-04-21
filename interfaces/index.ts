@@ -26,3 +26,9 @@ export interface ITestimonial {
   };
   id?: string;
 }
+
+export interface IDiversify {
+  name: string;
+  id: number;
+  imageSrc: string;
+}
