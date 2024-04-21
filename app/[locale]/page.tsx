@@ -4,6 +4,7 @@ import Session2 from "@/components/pages/home/Session2";
 import HomeSession4 from "@/components/pages/home/Session4";
 import HomeSession5 from "@/components/pages/home/Session5";
 import HomeSession6 from "@/components/pages/home/Session6";
+import HomeSession8 from "@/components/pages/home/Session8";
 import { ITestimonial } from "@/interfaces";
 import { useMessages } from "next-intl";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <HomeSession7
         data={messages.testimonialsData as unknown as ITestimonial[]}
       />
+      <HomeSession8 data={messages.HomeSession8Data as unknown as string[]} />
     </>
   );
 }

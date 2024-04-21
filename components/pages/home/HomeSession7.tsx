@@ -7,7 +7,7 @@ const HomeSession7 = ({ data }: { data: ITestimonial[] }) => {
   return (
     <section>
       <div className="container">
-        <div className=" max-w-[781px] block mx-auto space-y-3">
+        <div className=" py-6 max-w-[781px] block mx-auto space-y-3">
           <div>
             <h2 className="  text-center">{t("title")}</h2>
           </div>

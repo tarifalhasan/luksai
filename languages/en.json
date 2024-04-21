@@ -57,5 +57,17 @@
         "avatar": "/images/home/session-7/woman-1.webp"
       }
     }
+  ],
+  "HomeSession8": {
+    "title": "You don't need thousands of followers to start your online business",
+    "description": "Luksai is for you, if you are..."
+  },
+  "HomeSession8Data": [
+    "Coach",
+    "Mentor",
+    "Content Creator",
+    "Business owner",
+    "Influencer",
+    "Founder"
   ]
 }
