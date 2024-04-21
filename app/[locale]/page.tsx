@@ -1,5 +1,7 @@
 import HomeHero from "@/components/pages/home/HomeHero";
 import HomeSession7 from "@/components/pages/home/HomeSession7";
+import HomeSection3 from "@/components/pages/home/Section3";
+import HomeSession10 from "@/components/pages/home/Session10";
 import Session2 from "@/components/pages/home/Session2";
 import HomeSession4 from "@/components/pages/home/Session4";
 import HomeSession5 from "@/components/pages/home/Session5";
@@ -16,6 +18,7 @@ export default function Home() {
     <>
       <HomeHero />
       <Session2 />
+      <HomeSection3 />
       <HomeSession4 />
       <HomeSession5 />
       <HomeSession6 />
@@ -24,6 +27,7 @@ export default function Home() {
       />
       <HomeSession8 data={messages.HomeSession8Data as unknown as string[]} />
       <HomeSession9 />
+      <HomeSession10 />
     </>
   );
 }

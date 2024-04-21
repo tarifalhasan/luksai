@@ -8,6 +8,10 @@
     "title": "Build your legacy while monetizing your knowledge ",
     "description": "Create digital products and impact the lives of many with Luksai, an intuitive platform for managing and selling digital products. "
   },
+  "HomeSection3": {
+    "title": "Digital products go beyond online courses",
+    "description": "Some people only associate digital products with online courses. However, delivery formats go beyond that."
+  },
   "HomeSession4": {
     "title": "Create your own legacy today!",
     "description": "Create an account for free",
@@ -73,5 +77,29 @@
   "HomeSession9": {
     "title": "Diversify your sources of income",
     "description": "Help people around the world with your expertise from a closer point of view creating group mentoring, one on one sessions or online courses."
-  }
+  },
+  "HomeSession10": {
+    "title": "Your digital program at no initial cost in a few minutes",
+    "description": "Where to start?"
+  },
+  "WhereToStartData": [
+    {
+      "name": "Registration",
+      "description": "Register your personal and financial data on the platform",
+      "id": 1,
+      "icon": "/images/home/session-10/registration.svg"
+    },
+    {
+      "name": "Create a Product",
+      "description": "Create your digital product including your modules, lessons, videos, and supplemental materials",
+      "id": 2,
+      "icon": "/images/home/session-10/create-product.svg"
+    },
+    {
+      "name": "24/7 Support",
+      "description": "Your sales link is automatically generated and can be added to your sales page",
+      "id": 3,
+      "icon": "/images/home/session-10/support.svg"
+    }
+  ]
 }

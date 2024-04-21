@@ -32,3 +32,10 @@ export interface IDiversify {
   id: number;
   imageSrc: string;
 }
+
+export interface IWhereToStart {
+  name: string;
+  description: string;
+  id: number;
+  icon: string;
+}
