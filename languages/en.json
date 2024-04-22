@@ -105,5 +105,37 @@
   "solutionsHero": {
     "title": "Solutions for Digital Content Creators",
     "description": "Luksai is dedicated to empowering you with cutting-edge tools to monetize your expertise and craft personalized learning experiences. Our platform is built to help you create, manage, and sell your digital products, enabling you to focus on what you do best—inspiring and guiding others."
-  }
+  },
+  "AdditionalFeatures": [
+    {
+      "title": "Email Integration",
+      "description": "Streamline communication by seamlessly integrating email services with our platform.",
+      "id": 145
+    },
+    {
+      "title": "Admin Users",
+      "description": "Empower your team with specialized administrative access, enabling them to manage courses, monitor student progress, and analyze engagement metrics.",
+      "id": 146
+    },
+    {
+      "title": "Abandoned Cart Recovery",
+      "description": "Increase your conversion rates by capturing potential lost sales with our abandoned cart recovery feature. ",
+      "id": 147
+    },
+    {
+      "title": " Bundle Offers",
+      "description": "Market a collection of digital offerings as a unified package, allowing customers to purchase various products together at a reduced rate.",
+      "id": 148
+    },
+    {
+      "title": "Payment Plan",
+      "description": "Offer your products with the convenience of fixed payment plans, granting students greater flexibility in managing their finances while accessing your training.",
+      "id": 149
+    },
+    {
+      "title": "Subscription Payment",
+      "description": "Offer your content through weekly, monthly, or annual subscriptions, providing continuous access to your courses and fostering long-term engagement. ",
+      "id": 150
+    }
+  ]
 }

@@ -16,6 +16,11 @@ export interface IBenefit {
   title: string;
   description: string;
 }
+export interface IAdditionalFeatures {
+  title: string;
+  description: string;
+  id: number;
+}
 
 export interface ITestimonial {
   title: string;
