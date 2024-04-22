@@ -137,5 +137,32 @@
       "description": "Offer your content through weekly, monthly, or annual subscriptions, providing continuous access to your courses and fostering long-term engagement. ",
       "id": 150
     }
+  ],
+  "SolutionsSection8Data": [
+    {
+      "icon": "/images/solutions/session-8/integrated-payment.svg",
+      "title": "Integrated payment checkout with payment options - subscriptions, debit and credit cart, apple pay, google pay.",
+      "id": 151
+    },
+    {
+      "icon": "/images/solutions/session-8/bundle.svg",
+      "title": "Promote a bundle of digital products as a single package.",
+      "id": 152
+    },
+    {
+      "icon": "/images/solutions/session-8/hosting.svg",
+      "title": "Secure hosting of content and videos.",
+      "id": 153
+    },
+    {
+      "icon": "/images/solutions/session-8/currency-exchange.svg",
+      "title": "Currency exchange so you can sell your product in different currencies.",
+      "id": 154
+    },
+    {
+      "icon": "/images/solutions/session-8/connect.svg",
+      "title": "Connect to our marketing experts so they can assist in advertising your product.",
+      "id": 155
+    }
   ]
 }

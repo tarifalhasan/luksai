@@ -22,6 +22,12 @@ export interface IAdditionalFeatures {
   id: number;
 }
 
+export interface ISolutionsSection8Data {
+  icon: string;
+  id: number;
+  title: string;
+}
+
 export interface ITestimonial {
   title: string;
   author: {
