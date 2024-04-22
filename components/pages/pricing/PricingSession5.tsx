@@ -1,28 +1,33 @@
+import { Button } from "@/components/ui/button";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
+import { FaArrowRightLong } from "react-icons/fa6";
 
-const Session2 = () => {
-  const t = useTranslations("HomeSection2");
+const PricingSession5 = () => {
+  const t = useTranslations("PricingSession5");
   return (
-    <section className=" container rounded-20 py-20 relative overflow-hidden my-5 lg:my-10 bg-[#F3F4F6] flex flex-col px-5 lg:flex-row gap-12  lg:justify-between lg:items-center ">
+    <section className=" container rounded-20 py-[7rem] relative overflow-hidden my-5 lg:my-10 bg-[#F3F4F6] flex flex-col px-5 lg:flex-row gap-12   lg:items-center ">
       <div className=" w-full lg:w-1/2">
         <div className=" relative z-20">
-          <div className="  rounded-lg  block mx-auto w-[80%] sm:w-[60%] h-[325.09px] bg-skin-dark-900 rotate-[-15deg]"></div>
-          <div className=" absolute   rounded-lg  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  block mx-auto w-[80%] sm:w-[60%] h-[325.09px] bg-skin-navy-blue "></div>
+          <div className=" rounded-lg  block mx-auto w-[80%] sm:w-[60%] h-[325.09px] bg-skin-dark-900 rotate-[-15deg]"></div>
+          <div className=" absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  block mx-auto w-[80%]  rounded-lg  sm:w-[60%] h-[325.09px] bg-skin-navy-blue "></div>
           <div>
             <Image
               width={274}
               className="absolute   h-auto max-h-[406px] left-1/2  bottom-0 -translate-x-1/2 "
               height={500}
-              src={"/images/home/session-2/woman.webp"}
+              src={"/images/Manual de Vendas.webp"}
               alt="women"
             />
           </div>
         </div>
       </div>
-      <div className="  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2">
+      <div className=" lg:max-w-[465.637px]  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2">
         <h2>{t("title")}</h2>
         <p>{t("description")}</p>
+        <Button variant={"secondary"} className=" gap-4">
+          Register Now <FaArrowRightLong />
+        </Button>
       </div>
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -83,4 +88,4 @@ const Session2 = () => {
   );
 };
 
-export default Session2;
+export default PricingSession5;
