@@ -11,7 +11,7 @@ const SocialSession4 = () => {
         <Image
           width={168}
           height={150}
-          className=" absolute top left-0"
+          className=" absolute hidden lg:block top left-0"
           src={"/images/social/session-4/ellipse.svg"}
           alt="dfkdnfd"
         />
@@ -19,7 +19,7 @@ const SocialSession4 = () => {
         <Image
           width={200}
           height={200}
-          className=" absolute  top right-0"
+          className=" hidden lg:block absolute  top right-0"
           src={"/images/social/session-4/star.svg"}
           alt="dfkdnfd"
         />
@@ -42,7 +42,7 @@ const SocialSession4 = () => {
         </div>
         <div className=" py-3"></div>
         <div className=" grid mt-8 rounded-20 overflow-hidden  min-h-[240px] lg:min-h-[319px] relative  lg:grid-cols-2">
-          <div className="  min-h-[240px] lg:min-h-[319px] overflow-hidden relative   bg-skin-navy-blue px-6 flex flex-col justify-center">
+          <div className="  min-h-[240px] lg:min-h-[319px] overflow-hidden relative   bg-skin-navy-blue px-6 lg:px-12 flex flex-col justify-center">
             <div className=" space-y-4">
               <h3 className=" text-2xl lg:text-3xl xl:text-4xl text-skin-yellow-accent font-bold">
                 {t("contentTitle")}
