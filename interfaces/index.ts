@@ -57,3 +57,11 @@ export interface IWhyUs {
   title: string;
   icon: string;
 }
+
+export interface ITeam {
+  name: string;
+  role: string;
+  id: number;
+  linkedin: string;
+  avatar: string;
+}

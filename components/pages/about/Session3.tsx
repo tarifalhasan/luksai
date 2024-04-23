@@ -6,7 +6,7 @@ const AboutSession3 = () => {
   const message = useMessages();
   const data = message.AboutSession3 as unknown as IWhyUs[];
   return (
-    <section className="container space-y-9 overflow-hidden relative  py-10">
+    <section className="container space-y-9 overflow-hidden relative  pb-10 pt-10 lg:pb-[5rem] lg:pt-[6rem]">
       <div>
         <h2 className=" text-center">
           Our <span className=" text-primary">Why</span>

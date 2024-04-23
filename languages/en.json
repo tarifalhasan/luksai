@@ -188,5 +188,49 @@
       "title": "We believe that scarcity in the world is not only related to the poor distribution of wealth, but to the poor distribution of knowledge.",
       "id": 302
     }
+  ],
+  "OurTeam": [
+    {
+      "name": "Talita Meira",
+      "id": 400,
+      "role": "CEO & Co-Founder",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/talita-meira.webp"
+    },
+    {
+      "name": "Lao Reis",
+      "id": 401,
+      "role": "CTO & Co-Founder",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/lao-reis.webp"
+    },
+    {
+      "name": "Ariane Nascimento",
+      "id": 402,
+      "role": "Administration Officer",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/ariane-nascimento.webp"
+    },
+    {
+      "name": "Guilherme Couto",
+      "id": 403,
+      "role": "IT Manager",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/guilherme-couto.webp"
+    },
+    {
+      "name": "Leia Santos",
+      "id": 404,
+      "role": "Customer Relationship Manager",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/leia-santos.webp"
+    },
+    {
+      "name": "Renata Reis",
+      "id": 405,
+      "role": "Marketing Manager",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/renata-reis.webp"
+    }
   ]
 }
