@@ -232,5 +232,24 @@
       "linkedin": "https://linkedin.com/tarifalhasanjs",
       "avatar": "/images/about/session-4/renata-reis.webp"
     }
-  ]
+  ],
+  "SocialSection1": {
+    "title": "It's not about business. It's about people",
+    "description": "We believe that everyone has a unique purpose that can transform lives. Luksai is a collaborative platform that connects the digital entrepreneur to social actions around the world."
+  },
+  "SocialSection2": {
+    "title": "We believe that scarcity in the world is not only related to poor distribution of income, but the poor distribution of knowledge.    ",
+    "description": "Luksai offers a comprehensive solution for the expansion of your digital business, simultaneously supporting community welfare. We assist churches and NGOs, facilitating their mission to change lives through education, and links digital creators with these social initiatives, fostering community giveback."
+  },
+  "SocialSection3": {
+    "title": "Social Impact",
+    "description": "As a “Business for Good”, we encourage our creators to make a positive social impact on society by donating a portion of their profits to a number of serious NGOs that we partner with. We offer the possibility for our creators to choose a percentage of profit from each of their digital products to give back to communities that are developing something good."
+  },
+  "SocialSection4": {
+    "title": "Your blueprint starting today",
+    "description": "Join our mission to enlighten and empower! Schedule a call with us today to explore how you can align your digital creativity with our network of churches and NGOs, and make a lasting difference through knowledge.",
+    "subTitle": "How to collaborate?",
+    "contentTitle": "Bridge Builders ",
+    "contentDescription": "Let’s collaborate to bridge the knowledge gap and transform lives together."
+  }
 }
