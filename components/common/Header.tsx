@@ -37,21 +37,24 @@ const Header = () => {
       )}
     >
       <div className=" container sticky top-0 left-0 right-0 py-5 flex items-center justify-between">
-        <div className=" inline-flex items-center gap-5">
-          <Link href={"/"}>
-            <Image
-              src={"/images/logo.webp"}
-              alt="luksai logo"
-              width={110}
-              height={56}
-            />
-          </Link>
+        <div className=" inline-flex items-center gap-16">
+          <div>
+            <Link href={"/"}>
+              <Image
+                src={"/images/logo.webp"}
+                alt="luksai logo"
+                width={110}
+                height={56}
+              />
+            </Link>
+          </div>
           <ul className=" inline-flex items-center gap-8">
             <li>
               <Link
                 className={cn(
                   " text-base text-skin-blue-gray font-normal",
-                  pathName === `/${local}` && "font-bold"
+                  pathName === `/${local}` &&
+                    "font-bold underline underline-offset-4 decoration-2"
                 )}
                 href={"/"}
               >
@@ -62,7 +65,8 @@ const Header = () => {
               <Link
                 className={cn(
                   " text-base text-skin-blue-gray font-normal",
-                  pathName === `/${local}/solutions` && "font-bold"
+                  pathName === `/${local}/solutions` &&
+                    "font-bold underline underline-offset-4 decoration-2"
                 )}
                 href={"/solutions"}
               >
@@ -73,7 +77,8 @@ const Header = () => {
               <Link
                 className={cn(
                   " text-base text-skin-blue-gray font-normal",
-                  pathName === `/${local}/about` && "font-bold"
+                  pathName === `/${local}/about` &&
+                    "font-bold underline underline-offset-4 decoration-2"
                 )}
                 href={"/about"}
               >
@@ -84,7 +89,8 @@ const Header = () => {
               <Link
                 className={cn(
                   " text-base text-skin-blue-gray font-normal",
-                  pathName === `/${local}/social` && "font-bold"
+                  pathName === `/${local}/social` &&
+                    "font-bold underline underline-offset-4 decoration-2"
                 )}
                 href={"/social"}
               >
@@ -95,7 +101,8 @@ const Header = () => {
               <Link
                 className={cn(
                   " text-base text-skin-blue-gray font-normal",
-                  pathName === `/${local}/pricing` && "font-bold"
+                  pathName === `/${local}/pricing` &&
+                    "font-bold underline underline-offset-4 decoration-2"
                 )}
                 href={"/pricing"}
               >

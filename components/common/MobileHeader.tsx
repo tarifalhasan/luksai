@@ -65,7 +65,8 @@ const MobileHeader = () => {
                   <Link
                     className={cn(
                       " text-base text-skin-blue-gray font-normal",
-                      pathName === `/${local}` && "font-bold"
+                      pathName === `/${local}` &&
+                        "font-bold underline underline-offset-4 decoration-2"
                     )}
                     href={"/"}
                   >
@@ -79,7 +80,8 @@ const MobileHeader = () => {
                   <Link
                     className={cn(
                       " text-base text-skin-blue-gray font-normal",
-                      pathName === `/${local}/solutions` && "font-bold"
+                      pathName === `/${local}/solutions` &&
+                        "font-bold underline underline-offset-4 decoration-2"
                     )}
                     href={"/solutions"}
                   >
@@ -93,7 +95,8 @@ const MobileHeader = () => {
                   <Link
                     className={cn(
                       " text-base text-skin-blue-gray font-normal",
-                      pathName === `/${local}/about` && "font-bold"
+                      pathName === `/${local}/about` &&
+                        "font-bold underline underline-offset-4 decoration-2"
                     )}
                     href={"/about"}
                   >
@@ -107,7 +110,8 @@ const MobileHeader = () => {
                   <Link
                     className={cn(
                       " text-base text-skin-blue-gray font-normal",
-                      pathName === `/${local}/social` && "font-bold"
+                      pathName === `/${local}/social` &&
+                        "font-bold underline underline-offset-4 decoration-2"
                     )}
                     href={"/social"}
                   >
@@ -121,7 +125,8 @@ const MobileHeader = () => {
                   <Link
                     className={cn(
                       " text-base text-skin-blue-gray font-normal",
-                      pathName === `/${local}/pricing` && "font-bold"
+                      pathName === `/${local}/pricing` &&
+                        "font-bold underline underline-offset-4 decoration-2"
                     )}
                     href={"/pricing"}
                   >
