@@ -13,7 +13,7 @@ const WhereToStart = () => {
   return (
     <div className=" relative  ">
       <div className=" relative container py-10">
-        <div className=" pt-20 max-w-[705px] mx-auto block space-y-4">
+        <div className=" lg:pt-20 max-w-[705px] mx-auto block space-y-4">
           <p className=" text-center">{t("description")}</p>
           <h2 className="text-center text-skin-dark-900">{t("title")}</h2>
         </div>
@@ -49,7 +49,7 @@ const WhereToStart = () => {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width={202}
-          className=" absolute left-0 top-0"
+          className=" hidden lg:block absolute left-0 top-0"
           height={179}
           viewBox="0 0 202 179"
           fill="none"
@@ -86,7 +86,7 @@ const WhereToStart = () => {
         height={196}
         viewBox="0 0 333 196"
         fill="none"
-        className=" absolute top-0 right-0"
+        className="  hidden lg:block absolute top-0 right-0"
       >
         <path
           opacity="0.13"

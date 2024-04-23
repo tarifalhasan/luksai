@@ -15,7 +15,7 @@ const HomeSession8 = ({ data }: { data: string[] }) => {
         {data?.map((item, i) => (
           <div
             key={i}
-            className=" cursor-pointer hover:bg-skin-yellow-accent  transition-all duration-500 border  rounded-[10px] inline-flex items-center border-black justify-center h-[60px] sm:h-[88px]"
+            className="  hover:bg-skin-yellow-accent  transition-all duration-500 border  rounded-[10px] inline-flex items-center border-black justify-center h-[60px] sm:h-[88px]"
           >
             <p className=" text-base sm:text-xl font-bold text-skin-dark-900">
               {item}

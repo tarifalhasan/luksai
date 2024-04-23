@@ -71,7 +71,7 @@
     @apply border-border;
   }
   h2 {
-    @apply scroll-m-20 lg:leading-[120%]  text-4xl lg:text-5xl  font-semibold tracking-tight first:mt-0;
+    @apply scroll-m-20 lg:leading-[120%]  text-3xl lg:text-5xl  font-semibold tracking-tight first:mt-0;
   }
   p {
     @apply text-sm sm:text-base xl:text-xl font-normal;

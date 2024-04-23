@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import Diversify from "./Diversify";
 
 const HomeSession9 = () => {
-  const t = useTranslations("HomeSession6");
+  const t = useTranslations("HomeSession9");
   const data = [
     {
       name: "One on One Sessions",
@@ -24,17 +24,16 @@ const HomeSession9 = () => {
   ];
 
   return (
-    <section className=" my-6">
-      <div className="s relative overflow-hidden container xl:px-14 bg-[#F3F4F6] rounded-20 py-10">
+    <section className=" my-6 container">
+      <div className="s px-4 relative overflow-hidden  xl:px-14 bg-[#F3F4F6] rounded-20 py-10">
         <div className=" max-w-[885px] mx-auto block space-y-4">
           <h2 className="text-center text-skin-dark-900">{t("title")}</h2>
           <p className=" text-center">{t("description")}</p>
         </div>
 
         <Diversify data={data} />
-
         <svg
-          className=" absolute top-4 left-4"
+          className=" absolute top-4 hidden lg:block left-4"
           xmlns="http://www.w3.org/2000/svg"
           width="65"
           height="62"
@@ -52,7 +51,7 @@ const HomeSession9 = () => {
           height={40}
           viewBox="0 0 81 40"
           fill="none"
-          className=" z-10 absolute  left-0 top-[70%]"
+          className=" z-10 hidden lg:block absolute  left-0 top-[70%]"
         >
           <path
             d="M-87 37.7798C-87 37.7798 43.0759 2.92605 46.8219 1.92232C50.5679 0.918584 -25.6796 29.4712 -30.1124 31.0121C-34.5451 32.553 48.652 15.4692 52.5271 14.4308C56.4023 13.3925 -9.02666 37.3688 -5.53903 36.4343C-2.05139 35.4998 78.7479 17.7342 78.7479 17.7342"
@@ -65,7 +64,7 @@ const HomeSession9 = () => {
           xmlns="http://www.w3.org/2000/svg"
           width={115}
           height={161}
-          className=" absolute top-0 right-0"
+          className=" hidden lg:block absolute top-0 right-0"
           viewBox="0 0 115 161"
           fill="none"
         >
