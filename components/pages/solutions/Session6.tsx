@@ -5,9 +5,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const SolutionsSession6 = () => {
   return (
     <section className=" bg-[#EDFEFF] relative overflow-hidden py-10">
-      <div className="  relative px-0 container">
+      <div className="  relative  container">
         <div className=" grid lg:grid-cols-2 gap-5 lg:items-center">
-          <div className=" px-4 space-y-4 lg:space-y-7">
+          <div className="  space-y-4 lg:space-y-7">
             <div>
               <h4 className=" text-2xl font-bold text-skin-dark-900">
                 Integrated checkout

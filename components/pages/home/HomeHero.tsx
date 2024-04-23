@@ -10,7 +10,7 @@ const HomeHero = () => {
     <div className=" py-10 relative overflow-hidden container flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
       <div className=" space-y-6 xl:space-y-8  basis-[70%]">
         <div className="max-w-[625px]">
-          <h2 className="xl:text-6xl">{t("title")}</h2>
+          <h2 className="">{t("title")}</h2>
         </div>
         <p className=" max-w-[625px] text-skin-blue-gray">{t("description")}</p>
         <div>
