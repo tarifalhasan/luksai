@@ -1,4 +1,7 @@
+import { useTranslations } from "next-intl";
+
 const AboutSession2 = () => {
+  const t = useTranslations("AboutSession2");
   return (
     <section className="container space-y-9 relative overflow-hidden py-10">
       <div>
@@ -8,12 +11,7 @@ const AboutSession2 = () => {
       </div>
       <div className=" relative z-20 lg:pb-6">
         <p className=" text-center max-w-[979px] block mx-auto">
-          Luksai was born from the combination of these two Brazilian hearts
-          passionate about education where they live in Australia. 2020 was a
-          challenging year for everyone, and it was no different for Talita and
-          Lao. However, seeing traditional teaching opening up to online
-          teaching, they saw the moment as an opportunity to contribute to
-          people&apos;s development through education.
+          {t("description")}
         </p>
       </div>
       <svg

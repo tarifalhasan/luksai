@@ -13,26 +13,26 @@ const Allplans = () => {
       <div className="  w-full block mx-auto  max-w-[500px]">
         <ul className=" space-y-3">
           <li className=" w-full flex items-center justify-between">
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               U.S credit & debit card sales
             </span>
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               2.9% + 30¢
             </span>
           </li>
           <li className=" w-full flex items-center justify-between">
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               International credit & debit card sales
             </span>
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               3.9% + 30¢
             </span>
           </li>
           <li className=" w-full flex items-center justify-between">
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               Chargeback fee
             </span>
-            <span className=" text-sm lg:text-base font-bold text-black">
+            <span className=" text-xs lg:text-base font-bold text-black">
               $15
             </span>
           </li>

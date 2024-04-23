@@ -6,8 +6,25 @@ import { FaArrowRightLong } from "react-icons/fa6";
 const SocialSession4 = () => {
   const t = useTranslations("SocialSection4");
   return (
-    <section className=" py-10 lg:py-16">
-      <div className=" container space-y-4">
+    <section className=" relative overflow-hidden ">
+      <div>
+        <Image
+          width={168}
+          height={150}
+          className=" absolute top left-0"
+          src={"/images/social/session-4/ellipse.svg"}
+          alt="dfkdnfd"
+        />
+
+        <Image
+          width={200}
+          height={200}
+          className=" absolute  top right-0"
+          src={"/images/social/session-4/star.svg"}
+          alt="dfkdnfd"
+        />
+      </div>
+      <div className=" py-10 lg:py-20 container space-y-4">
         <div>
           <div>
             <p className=" text-skin-blue-gray text-sm lg:text-base text-center">
@@ -23,8 +40,9 @@ const SocialSession4 = () => {
             </p>
           </div>
         </div>
-        <div className=" grid pt-8  rounded-20 relative overflow-hidden lg:grid-cols-2">
-          <div className=" overflow-hidden relative min-h-[240px] lg:min-h-[319px]  bg-skin-navy-blue px-6 flex flex-col justify-center">
+        <div className=" py-3"></div>
+        <div className=" grid mt-8 rounded-20 overflow-hidden  min-h-[240px] lg:min-h-[319px] relative  lg:grid-cols-2">
+          <div className="  min-h-[240px] lg:min-h-[319px] overflow-hidden relative   bg-skin-navy-blue px-6 flex flex-col justify-center">
             <div className=" space-y-4">
               <h3 className=" text-2xl lg:text-3xl xl:text-4xl text-skin-yellow-accent font-bold">
                 {t("contentTitle")}
@@ -45,7 +63,7 @@ const SocialSession4 = () => {
               quality={80}
             />
           </div>
-          <div className="  min-h-[250px] lg:min-h-[319px] w-full bg-cover bg-no-repeat bg-center bg-[url('/images/social/session-4/people.webp')] "></div>
+          <div className=" min-h-[240px] lg:min-h-[319px]  w-full bg-cover bg-no-repeat bg-center bg-[url('/images/social/session-4/people.webp')] "></div>
         </div>
       </div>
     </section>

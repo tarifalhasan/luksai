@@ -1,15 +1,14 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const AboutSession1 = () => {
+  const t = useTranslations("AboutSession1");
   return (
     <section className="container relative py-10">
       <div className=" grid  rounded-20 relative overflow-hidden lg:grid-cols-2">
         <div className=" overflow-hidden relative min-h-[240px] lg:min-h-[399px] flex items-center justify-center bg-skin-navy-blue px-4 lg:px-10 xl:px-14">
           <p className=" max-w-[432.503px] relative z-30 leading-[134%] text-base lg:text-xl text-white font-semibold">
-            Luksai emerged in the hearts of founders Talita and Lao in 2020 and,
-            shortly afterwards, propelled a group of people who believed in the
-            idea to join their efforts to make this dream a reality as soon as
-            possible.
+            {t("title")}
           </p>
           <Image
             src={"/images/about/session-1/line.svg"}
@@ -27,7 +26,7 @@ const AboutSession1 = () => {
         alt="line"
         width={73}
         height={78}
-        className=" absolute top-[12%] z-10  -translate-y-[12%] -left-[5px]"
+        className=" absolute lg:top-[12%] z-10 top-5   lg:-translate-y-[12%] -left-[5px]"
         quality={80}
       />
     </section>
