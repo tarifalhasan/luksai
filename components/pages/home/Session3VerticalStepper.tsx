@@ -1,5 +1,6 @@
 "use client";
 import { cn } from "@/lib/utils";
+import { motion } from "framer-motion";
 import { useState } from "react";
 
 const Session3VerticalStepper = () => {
@@ -74,7 +75,7 @@ const Session3VerticalStepper = () => {
                 className={cn(
                   " text-lg relative after:absolute  text-left text-skin-blue-gray font-normal",
                   activeTab === index &&
-                    "text-primary font-bold after:w-[10px] after:h-[57px] after:bg-primary after:rounded-full after:left-[-23%] after:z-30 after:top-[-20px]"
+                    "text-primary font-bold after:w-[10px] after:h-[57px] after:bg-primary after:rounded-full after:left-[-23.5%] after:z-30 after:top-[-20px]"
                 )}
                 key={index}
               >
@@ -84,18 +85,23 @@ const Session3VerticalStepper = () => {
           </div>
         </div>
         <div className=" basis-[calc(70%-2rem)] space-y-4">
-          <div className=" z-30 relative h-[320px] bg-cover bg-no-repeat bg-center  before:absolute  before:-z-10  before:bg-primary before:w-full before:h-full before:top-4 before:left-5 rounded-lg  before:rounded-lg w-full">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            className=" fade-animtion z-30 relative h-[320px] bg-cover bg-no-repeat bg-center  before:absolute  before:-z-10  before:bg-primary before:w-full before:h-full before:top-4 before:left-5 rounded-lg  before:rounded-lg w-full"
+          >
             <div
               className="absolute rounded-lg inset-0 z-10 bg-cover bg-no-repeat bg-center"
               style={{
                 backgroundImage: `linear-gradient(180deg, rgba(0, 1, 35, 0.00) 0%, #000123 106.87%), url(${data[activeTab].content.imageSrc})`,
               }}
             ></div>
-            <p className=" text-white absolute bottom-2 font-semibold left-2 text-2xl xl:text-3xl z-20">
+            <p className=" text-white absolute bottom-5 font-semibold left-3 text-2xl xl:text-3xl z-20">
               {data[activeTab].name}
             </p>
-          </div>
-          <p className=" text-base text-skin-blue-gray font-normal">
+          </motion.div>
+          <p className=" pt-6 text-base text-skin-blue-gray font-normal">
             {data[activeTab].content.description}
           </p>
         </div>
