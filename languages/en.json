@@ -168,5 +168,25 @@
   "PricingSession5": {
     "title": "Try it for free and upgrade at any time",
     "description": "Explore Luksai features and start your online course business today."
-  }
+  },
+  "AboutSession3": [
+    {
+      "name": "What?",
+      "icon": "/images/about/session-3/what.svg",
+      "title": "Intuitive and secure online platform for hosting digital products such as Mentorship and online courses.",
+      "id": 300
+    },
+    {
+      "name": "As?",
+      "icon": "/images/about/session-3/as.svg",
+      "title": "Distributing valuable knowledge with a focus on developing people around the world.",
+      "id": 301
+    },
+    {
+      "name": "Why?",
+      "icon": "/images/about/session-3/why.svg",
+      "title": "We believe that scarcity in the world is not only related to the poor distribution of wealth, but to the poor distribution of knowledge.",
+      "id": 302
+    }
+  ]
 }

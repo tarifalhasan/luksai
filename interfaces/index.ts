@@ -50,3 +50,10 @@ export interface IWhereToStart {
   id: number;
   icon: string;
 }
+
+export interface IWhyUs {
+  name: string;
+  id: number;
+  title: string;
+  icon: string;
+}
