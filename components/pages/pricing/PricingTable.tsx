@@ -24,7 +24,12 @@ const PricingTable = ({ tab }: { tab: "monthly" | "yearly" }) => {
   ];
   return (
     <section className=" container py-10">
-      <div className=" space-y-4">
+      <div
+        data-aos-duration="2000"
+        data-aos="fade-down"
+        data-aos-anchor-placement="center-bottom"
+        className=" space-y-4"
+      >
         <div>
           <h2 className="text-skin-navy-blue text-center">Compare our plans</h2>
         </div>

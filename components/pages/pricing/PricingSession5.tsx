@@ -7,7 +7,12 @@ const PricingSession5 = () => {
   const t = useTranslations("PricingSession5");
   return (
     <section className=" container rounded-20 py-[7rem] relative overflow-hidden my-5 lg:my-10 bg-[#F3F4F6] flex flex-col px-5 lg:flex-row gap-12   lg:items-center ">
-      <div className=" w-full lg:w-1/2">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className=" w-full lg:w-1/2"
+      >
         <div className=" relative z-20">
           <div className=" rounded-lg  block mx-auto w-[80%] sm:w-[60%] h-[325.09px] bg-skin-dark-900 rotate-[-15deg]"></div>
           <div className=" absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  block mx-auto w-[80%]  rounded-lg  sm:w-[60%] h-[325.09px] bg-skin-navy-blue "></div>
@@ -22,7 +27,12 @@ const PricingSession5 = () => {
           </div>
         </div>
       </div>
-      <div className=" lg:max-w-[465.637px]  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className=" lg:max-w-[465.637px]  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2"
+      >
         <h2>{t("title")}</h2>
         <p>{t("description")}</p>
         <Button variant={"secondary"} className=" gap-4">

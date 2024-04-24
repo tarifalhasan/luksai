@@ -3,6 +3,8 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
+import AnimationContainer from "../AnimationContainer";
+import AnimationItem from "../AnimationItem";
 import PricingTable from "./PricingTable";
 
 const PricingHero = () => {
@@ -117,7 +119,12 @@ const PricingHero = () => {
   return (
     <>
       <section className=" space-y-5 bg-primary relative overflow-hidden py-10">
-        <div className="flex flex-col items-center justify-center space-y-5">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+          className="flex flex-col items-center justify-center space-y-5"
+        >
           <h2 className=" text-white text-center">Pricing</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -159,9 +166,9 @@ const PricingHero = () => {
             Yearly
           </button>
         </div>
-        <div className=" container pt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <AnimationContainer containerClass=" container pt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {selectedTab.map((price, index) => (
-            <div
+            <AnimationItem
               className=" rounded-[10px] bg-white py-5 px-5 flex flex-col  items-center justify-between"
               key={price.name}
             >
@@ -205,9 +212,9 @@ const PricingHero = () => {
               <Button className=" bg-skin-navy-blue hover:bg-skin-navy-blue/80 flex w-full">
                 Start Now
               </Button>
-            </div>
+            </AnimationItem>
           ))}
-        </div>
+        </AnimationContainer>
       </section>
       <PricingTable tab={activeTab} />
     </>

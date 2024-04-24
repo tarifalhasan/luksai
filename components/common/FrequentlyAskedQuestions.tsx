@@ -35,7 +35,14 @@ const FrequentlyAskedQuestions = () => {
   return (
     <section className=" relative py-10 lg:py-16  overflow-hidden bg-skin-navy-blue">
       <div className=" py-5">
-        <h2 className=" text-center text-white">Frequently Asked Questions</h2>
+        <h2
+          data-aos="fade-down"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className=" text-center text-white"
+        >
+          Frequently Asked Questions
+        </h2>
       </div>
       <div className=" relative  container pt-8">
         <Accordion
