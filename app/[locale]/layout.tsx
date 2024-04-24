@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import { Open_Sans as FontSans } from "next/font/google";
+import NextTopLoader from "nextjs-toploader";
 
 import { AOSInit } from "@/components/aos";
 import Footer from "@/components/common/Footer";
@@ -22,6 +23,7 @@ export default function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head />
+
       <AOSInit />
       <body
         className={cn(
@@ -29,6 +31,21 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <NextTopLoader
+          color="#2299DD"
+          initialPosition={0.08}
+          crawlSpeed={200}
+          height={3}
+          crawl={true}
+          showSpinner={true}
+          easing="ease"
+          speed={200}
+          shadow="0 0 10px #2299DD,0 0 5px #2299DD"
+          template='<div class="bar" role="bar"><div class="peg"></div></div> 
+  <div class="spinner" role="spinner"><div class="spinner-icon"></div></div>'
+          zIndex={1600}
+          showAtBottom={false}
+        />
         <Header />
         <MobileHeader />
         {children}

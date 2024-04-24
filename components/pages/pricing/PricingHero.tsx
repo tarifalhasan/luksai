@@ -3,8 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useState } from "react";
-import AnimationContainer from "../AnimationContainer";
-import AnimationItem from "../AnimationItem";
 import PricingTable from "./PricingTable";
 
 const PricingHero = () => {
@@ -166,9 +164,9 @@ const PricingHero = () => {
             Yearly
           </button>
         </div>
-        <AnimationContainer containerClass=" container pt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className=" container pt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {selectedTab.map((price, index) => (
-            <AnimationItem
+            <div
               className=" rounded-[10px] bg-white py-5 px-5 flex flex-col  items-center justify-between"
               key={price.name}
             >
@@ -212,9 +210,9 @@ const PricingHero = () => {
               <Button className=" bg-skin-navy-blue hover:bg-skin-navy-blue/80 flex w-full">
                 Start Now
               </Button>
-            </AnimationItem>
+            </div>
           ))}
-        </AnimationContainer>
+        </div>
       </section>
       <PricingTable tab={activeTab} />
     </>

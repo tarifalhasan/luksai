@@ -8,6 +8,7 @@ import {
 } from "@/components/ui/table";
 import { FaCheck } from "react-icons/fa6";
 import { IoCloseSharp } from "react-icons/io5";
+import PricingTableMobile from "./PricingTableMobile";
 
 const PricingTable = ({ tab }: { tab: "monthly" | "yearly" }) => {
   const plans = [
@@ -359,7 +360,9 @@ const PricingTable = ({ tab }: { tab: "monthly" | "yearly" }) => {
           </Table>
           {/* Table for mobile */}
         </div>
-        <div className=" sm:sr-only"></div>
+        <div className=" sm:sr-only">
+          <PricingTableMobile />
+        </div>
       </div>
     </section>
   );
