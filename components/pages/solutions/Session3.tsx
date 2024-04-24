@@ -1,9 +1,12 @@
-import { Button } from "@/components/ui/button";
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-} from "@/components/ui/carousel";
+  FeaturesCarusel,
+  FeaturesCaruselContent,
+  FeaturesCaruselItem,
+  FeaturesCaruselNext,
+  FeaturesCaruselPrevious,
+} from "@/components/ui/FeaturesCarusel";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const SolutionsSession3 = () => {
@@ -30,9 +33,9 @@ const SolutionsSession3 = () => {
   return (
     <section className=" bg-primary py-10">
       <div className=" container  ">
-        <Carousel>
-          <CarouselContent className=" gap-6">
-            <CarouselItem className="lg:basis-1/3  basis-full  max-w-[377px]">
+        <FeaturesCarusel dotClassName=" bg-white ">
+          <FeaturesCaruselContent className=" gap-6">
+            <FeaturesCaruselItem className="lg:basis-1/3  basis-full  max-w-[377px]">
               <div className=" space-y-4 ">
                 <h2 className=" text-white lg:text-4xl">
                   Our features specially for you
@@ -44,15 +47,20 @@ const SolutionsSession3 = () => {
                   Register Now <FaArrowRightLong />
                 </Button>
               </div>
-            </CarouselItem>
-
+            </FeaturesCaruselItem>
             {slidesData.map((slide, index) => (
-              <CarouselItem
+              <FeaturesCaruselItem
                 key={slide.name}
                 className=" basis-full lg:basis-[25%] bg-white  rounded-[1rem] flex flex-col items-center justify-center py-10 gap-5"
               >
                 <div className="">
-                  <div className=" w-14 h-14 rounded-full bg-primary/[0.8]"></div>
+                  <div className=" w-14 h-14 rounded-full bg-[#DEFBFB]"></div>
+                  <Image
+                    src={slide.icon}
+                    alt={slide.name}
+                    width={47}
+                    height={47}
+                  />
                 </div>
                 <div>
                   <h4 className=" text-xl font-semibold text-skin-dark-900">
@@ -64,10 +72,14 @@ const SolutionsSession3 = () => {
                     {slide.title}
                   </p>
                 </div>
-              </CarouselItem>
+              </FeaturesCaruselItem>
             ))}
-          </CarouselContent>
-        </Carousel>
+          </FeaturesCaruselContent>
+          <div className=" w-full flex  justify-end items-center gap-3 mt-5">
+            <FeaturesCaruselPrevious />
+            <FeaturesCaruselNext />
+          </div>
+        </FeaturesCarusel>
       </div>
     </section>
   );

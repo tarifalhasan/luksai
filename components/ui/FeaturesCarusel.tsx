@@ -255,15 +255,14 @@ const CarouselPrevious = React.forwardRef<
   const { orientation, scrollPrev, canScrollPrev } = useCarousel();
 
   return (
-    <Button
+    <button
       ref={ref}
-      size={size}
       className={cn(
-        "absolute   w-10 h-10 rounded-full",
-        orientation === "horizontal"
-          ? "-left-12 top-1/2 -translate-y-1/2"
-          : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
-        !canScrollPrev ? "bg-white/[0.5]" : "bg-primary",
+        "  px-4 h-10 rounded-[14px]",
+        // orientation === "horizontal" ? "" : "",
+        !canScrollPrev
+          ? " bg-transparent  text-white border-2 border-white"
+          : " bg-skin-dark-900 text-white",
         className
       )}
       disabled={!canScrollPrev}
@@ -272,7 +271,7 @@ const CarouselPrevious = React.forwardRef<
     >
       <FaArrowLeftLong className="h-4 w-4" />
       <span className="sr-only">Previous slide</span>
-    </Button>
+    </button>
   );
 });
 CarouselPrevious.displayName = "CarouselPrevious";
@@ -284,16 +283,14 @@ const CarouselNext = React.forwardRef<
   const { orientation, scrollNext, canScrollNext } = useCarousel();
 
   return (
-    <Button
+    <button
       ref={ref}
-      // variant={variant}
-      size={size}
       className={cn(
-        "absolute w-10 h-10 rounded-full",
-        orientation === "horizontal"
-          ? "-right-12 top-1/2 -translate-y-1/2"
-          : "-bottom-12 left-1/2 -translate-x-1/2 rotate-90",
-        !canScrollNext ? "bg-white/[0.5]" : "bg-primary",
+        "  px-4 h-10 rounded-[14px]",
+        // orientation === "horizontal" ? "" : "",
+        !canScrollNext
+          ? " bg-transparent  text-white border-2 border-white"
+          : " bg-skin-dark-900 text-white",
         className
       )}
       disabled={!canScrollNext}
@@ -302,16 +299,16 @@ const CarouselNext = React.forwardRef<
     >
       <FaArrowRightLong className="h-4 w-4" />
       <span className="sr-only">Next slide</span>
-    </Button>
+    </button>
   );
 });
 CarouselNext.displayName = "CarouselNext";
 
 export {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  Carousel as FeaturesCarusel,
+  CarouselContent as FeaturesCaruselContent,
+  CarouselItem as FeaturesCaruselItem,
+  CarouselNext as FeaturesCaruselNext,
+  CarouselPrevious as FeaturesCaruselPrevious,
   type CarouselApi,
 };
