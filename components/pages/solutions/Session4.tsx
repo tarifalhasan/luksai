@@ -6,7 +6,12 @@ const SolutionsSession4 = () => {
   return (
     <section className=" bg-[#EDFEFF] relative overflow-hidden py-10">
       <div className="  relative container">
-        <div className="flex flex-col items-center justify-center space-y-5">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+          className="flex flex-col items-center justify-center space-y-5"
+        >
           <h2 className=" text-center">Our Features</h2>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +30,12 @@ const SolutionsSession4 = () => {
           </svg>
         </div>
         <div className=" grid lg:grid-cols-2 gap-5 pt-8 lg:items-center">
-          <div className=" space-y-4 lg:space-y-7">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className=" space-y-4 lg:space-y-7"
+          >
             <div>
               <h4 className=" text-2xl font-bold text-skin-dark-900">
                 Mentee Exclusive Area
@@ -40,7 +50,11 @@ const SolutionsSession4 = () => {
               Register Now <FaArrowRightLong />
             </Button>
           </div>
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <Image
               src={"/images/solutions/session-4/background.webp"}
               width={695}

@@ -7,7 +7,11 @@ const SolutionsSession5 = () => {
     <section className="  relative overflow-hidden py-10">
       <div className="  relative container">
         <div className=" grid lg:grid-cols-2 gap-5 lg:items-center">
-          <div>
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <Image
               src={"/images/solutions/session-5/artboard.svg"}
               width={539}
@@ -17,7 +21,12 @@ const SolutionsSession5 = () => {
               alt="background"
             />
           </div>
-          <div className=" space-y-4 lg:space-y-7">
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className=" space-y-4 lg:space-y-7"
+          >
             <div>
               <h4 className=" text-2xl font-bold text-skin-dark-900">
                 Engaging Content

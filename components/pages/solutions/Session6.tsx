@@ -7,7 +7,12 @@ const SolutionsSession6 = () => {
     <section className=" bg-[#EDFEFF] relative overflow-hidden py-10">
       <div className="  relative  container">
         <div className=" grid lg:grid-cols-2 gap-5 lg:items-center">
-          <div className="  space-y-4 lg:space-y-7">
+          <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+            className="  space-y-4 lg:space-y-7"
+          >
             <div>
               <h4 className=" text-2xl font-bold text-skin-dark-900">
                 Integrated checkout
@@ -22,7 +27,11 @@ const SolutionsSession6 = () => {
               Register Now <FaArrowRightLong />
             </Button>
           </div>
-          <div>
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <Image
               src={"/images/solutions/session-6/background.webp"}
               width={695}

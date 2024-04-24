@@ -4,7 +4,12 @@ const SolutionSession2 = () => {
   return (
     <section className=" lg:-mt-28 relative overflow-hidden bg-[#F6FCFC] lg:min-h-[828.328px]  flex flex-col items-center z-30 justify-center ">
       <div className="flex relative z-30 w-full container lg:flex-row gap-8 py-10 lg:items-center justify-between flex-col">
-        <div className=" w-full relative lg:w-1/2 ">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className=" w-full relative lg:w-1/2 "
+        >
           <Image
             src={"/images/solutions/session-2/platform.webp"}
             alt="platform"
@@ -20,7 +25,12 @@ const SolutionSession2 = () => {
             src={"/images/solutions/session-2/vector.svg"}
           />
         </div>
-        <div className=" w-full lg:w-1/2  space-y-4 lg:space-y-8">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className=" w-full lg:w-1/2  space-y-4 lg:space-y-8"
+        >
           <p className=" text-base lg:text-xl  font-normal text-skin-dark-900">
             Our Platform
           </p>
