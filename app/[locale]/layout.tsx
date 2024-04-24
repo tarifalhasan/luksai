@@ -5,12 +5,23 @@ import Footer from "@/components/common/Footer";
 import Header from "@/components/common/Header";
 import MobileHeader from "@/components/common/MobileHeader";
 import { cn } from "@/lib/utils";
+import { Metadata } from "next";
 
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
+export const metadata: Metadata = {
+  title: {
+    default: "Luksai",
+    template: `%s | Luksai`,
+  },
+  description: "description of your application",
+  verification: {
+    google: `google-site-verification=${process.env.GOOGLE_SITE_VERIFICATION}`,
+  },
+};
 export default function RootLayout({
   children,
   params: { locale },

@@ -9,7 +9,24 @@ import HomeSession6 from "@/components/pages/home/Session6";
 import HomeSession8 from "@/components/pages/home/Session8";
 import HomeSession9 from "@/components/pages/home/Session9";
 import { ITestimonial } from "@/interfaces";
+import { Metadata } from "next";
 import { useMessages } from "next-intl";
+
+export const metadata: Metadata = {
+  metadataBase: new URL("https://luksai.vercel.app/"),
+  title: {
+    default: "Luksai | Home",
+    template: `%s | Luksai | Home`,
+  },
+  description: "Description for you appplication",
+  alternates: {
+    canonical: `https://luksai.vercel.app/`,
+    languages: {
+      en: "en-US",
+      th: "th-th",
+    },
+  },
+};
 
 export default function Home() {
   const messages = useMessages();

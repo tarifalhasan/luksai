@@ -7,7 +7,22 @@ import SolutionsSession5 from "@/components/pages/solutions/Session5";
 import SolutionsSession6 from "@/components/pages/solutions/Session6";
 import SolutionsSession8 from "@/components/pages/solutions/Session8";
 import SolutionsHero from "@/components/pages/solutions/SolutionsHero";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  metadataBase: new URL("https://luksai.vercel.app/"),
+  title: {
+    default: "Luksai | Solutions",
+    template: `%s | Luksai | Solutions`,
+  },
+  description: "Description for you appplication",
+  alternates: {
+    canonical: `https://luksai.vercel.app/`,
+    languages: {
+      en: "en-US",
+      th: "th-th",
+    },
+  },
+};
 const page = () => {
   return (
     <>
