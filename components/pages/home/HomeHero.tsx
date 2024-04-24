@@ -8,9 +8,16 @@ const HomeHero = () => {
   const t = useTranslations("HomeSection1");
   return (
     <div className=" py-10 relative overflow-hidden container flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
-      <div className=" space-y-6 xl:space-y-8  basis-[70%]">
+      <div
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className=" space-y-6 xl:space-y-8  basis-[70%]"
+      >
         <div className="max-w-[625px]">
-          <h2 className="">{t("title")}</h2>
+          <h2 data-aos-easing="ease-in-sine" className="">
+            {t("title")}
+          </h2>
         </div>
         <p className=" max-w-[625px] text-skin-blue-gray">{t("description")}</p>
         <div>
@@ -55,7 +62,12 @@ const HomeHero = () => {
           </div>
         </div>
       </div>
-      <div className=" flex gap-7 justify-center lg:justify-stretch items-center">
+      <div
+        data-aos="fade-left"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        className=" flex gap-7 justify-center lg:justify-stretch items-center"
+      >
         <div className=" relative">
           <Image
             src={"/images/home/session-1/hero.webp"}

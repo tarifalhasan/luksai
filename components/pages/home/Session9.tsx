@@ -26,7 +26,12 @@ const HomeSession9 = () => {
   return (
     <section className=" my-6 container">
       <div className="s px-4 relative overflow-hidden  xl:px-14 bg-[#F3F4F6] rounded-20 py-10">
-        <div className=" max-w-[885px] mx-auto block space-y-4">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-anchor-placement="bottom-bottom"
+          className=" max-w-[885px] mx-auto block space-y-4"
+        >
           <h2 className="text-center text-skin-dark-900">{t("title")}</h2>
           <p className=" text-center">{t("description")}</p>
         </div>

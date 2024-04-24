@@ -23,7 +23,12 @@ const Testimonial = ({ data }: { data: ITestimonial[] }) => {
             {data?.map((item, index) => (
               <CarouselItem key={index}>
                 <div className=" flex flex-col gap-6 sm:flex-row items-center justify-between">
-                  <div className=" max-w-[320.994px]  space-y-4">
+                  <div
+                    data-aos-duration="2000"
+                    data-aos="fade-left"
+                    data-aos-anchor-placement="center-bottom"
+                    className=" max-w-[320.994px]  space-y-4"
+                  >
                     <p className=" text-center sm:text-left  text-white text-base xl:text-xl">
                       {item.title}
                     </p>
@@ -40,7 +45,11 @@ const Testimonial = ({ data }: { data: ITestimonial[] }) => {
                       </Button>
                     </div>
                   </div>
-                  <div>
+                  <div
+                    data-aos-duration="2000"
+                    data-aos="fade-right"
+                    data-aos-anchor-placement="center-bottom"
+                  >
                     <Avatar className=" border-[8px] border-white w-[12rem] h-[12rem] lg:w-[15rem] lg:h-[15rem] xl:w-[17rem] xl:h-[17rem]">
                       <AvatarImage src={item.author.avatar} />
                       <AvatarFallback>CN</AvatarFallback>

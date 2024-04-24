@@ -10,6 +10,8 @@ const Session2 = () => {
           <div className=" relative z-20">
             <div>
               <Image
+                data-aos-duration="2000"
+                data-aos="fade-right"
                 width={574}
                 // className="absolute   h-auto max-h-[406px] left-1/2  bottom-0 -translate-x-1/2 "
                 height={535}
@@ -19,7 +21,11 @@ const Session2 = () => {
             </div>
           </div>
         </div>
-        <div className="  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          className="  relative z-20 space-y-5 lg:space-y-8 w-full lg:w-1/2"
+        >
           <h2>{t("title")}</h2>
           <p>{t("description")}</p>
         </div>

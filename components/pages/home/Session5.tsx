@@ -6,13 +6,21 @@ const HomeSession5 = () => {
   return (
     <section className=" relative overflow-hidden bg-skin-navy-blue pt-16 pb-4">
       <div className=" relative   container grid lg:grid-cols-2 gap-10 lg:items-center">
-        <div className=" space-y-6 lg:space-y-9">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-right"
+          className=" space-y-6 lg:space-y-9"
+        >
           <div>
             <h2 className=" text-white">{t("title")}</h2>
           </div>
           <p className=" text-sm lg:text-base text-white">{t("description")}</p>
         </div>
-        <div className=" relative">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          className=" relative"
+        >
           <Image
             src={"/images/home/session-5/dashboard.webp"}
             alt="dashboard"

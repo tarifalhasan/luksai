@@ -9,7 +9,11 @@ const HomeSession4 = () => {
     <section className=" pt-[7.5rem] pb-6 lg:pb-0  bg-[#F6FCFC]">
       <div className="   gap-10 items-center container grid lg:grid-cols-2">
         <div>
-          <div className=" relative w-full block mx-auto  lg:max-w-[440px] bg-primary h-[380px] rounded-[150px_0_0_0]">
+          <div
+            data-aos-duration="2000"
+            data-aos="fade-right"
+            className=" relative w-full block mx-auto  lg:max-w-[440px] bg-primary h-[380px] rounded-[150px_0_0_0]"
+          >
             <Image
               className=" max-h-[480px] absolute bottom-0 left-1/2 -translate-x-1/2"
               src={"/images/home/session-4/woman.webp"}
@@ -19,7 +23,11 @@ const HomeSession4 = () => {
             />
           </div>
         </div>
-        <div className=" space-y-5 lg:space-y-8">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          className=" space-y-5 lg:space-y-8"
+        >
           <div className=" lg:max-w-[435.366px]">
             <h2>{t("title")}</h2>
           </div>

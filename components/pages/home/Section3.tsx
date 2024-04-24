@@ -5,7 +5,12 @@ const HomeSection3 = () => {
   const t = useTranslations("HomeSection3");
   return (
     <section className=" py-6 lg:py-10 container">
-      <div className=" space-y-5">
+      <div
+        data-aos-duration="2000"
+        data-aos="fade-down"
+        data-aos-anchor-placement="center-bottom"
+        className=" space-y-5"
+      >
         <div>
           <h2 className=" text-center">{t("title")}</h2>
         </div>

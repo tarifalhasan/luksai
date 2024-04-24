@@ -1,8 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { IWhereToStart } from "@/interfaces";
 import { useMessages, useTranslations } from "next-intl";
-import Image from "next/image";
 import { FaArrowRightLong } from "react-icons/fa6";
+import WhereToStartItems from "./WhereToStartItems";
 
 const WhereToStart = () => {
   const t = useTranslations("HomeSession10");
@@ -13,35 +13,22 @@ const WhereToStart = () => {
   return (
     <div className=" relative  ">
       <div className=" relative container py-10">
-        <div className=" lg:pt-20 max-w-[705px] mx-auto block space-y-4">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+          className=" lg:pt-20 max-w-[705px] mx-auto block space-y-4"
+        >
           <p className=" text-center">{t("description")}</p>
           <h2 className="text-center text-skin-dark-900">{t("title")}</h2>
         </div>
-        <div className=" py-10 lg:py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-9">
-          {data.map((item, index) => (
-            <div key={item.id} className=" flex items-start gap-4">
-              <div>
-                <div className=" rounded-md w-[85px] h-[85px] bg-primary grid place-items-center">
-                  <Image
-                    src={item.icon}
-                    alt={item.name}
-                    width={61}
-                    height={61}
-                  />
-                </div>
-              </div>
-              <div className=" space-y-2">
-                <div>
-                  <h3 className=" text-2xl lg:text-3xl font-semibold">
-                    {item.name}
-                  </h3>
-                </div>
-                <p className=" text-base">{item.description}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div className="flex justify-center">
+        <WhereToStartItems data={data} />
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          className="flex justify-center"
+        >
           <Button variant={"secondary"} className=" gap-3">
             Get Started <FaArrowRightLong />
           </Button>

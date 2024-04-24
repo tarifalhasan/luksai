@@ -10,7 +10,12 @@ const Diversify = ({ data }: { data: IDiversify[] }) => {
   return (
     <>
       <div className=" relative z-20 pt-8 grid gap-9 items-center lg:grid-cols-2">
-        <div className="flex flex-col gap-y-3 lg:max-w-[351px]">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-right"
+          data-aos-anchor-placement="center-bottom"
+          className="flex flex-col gap-y-3 lg:max-w-[351px]"
+        >
           {data.map((item, i) => (
             <button
               onClick={() => setActiveItem(i)}
@@ -41,7 +46,11 @@ const Diversify = ({ data }: { data: IDiversify[] }) => {
             </Button>
           </div>
         </div>
-        <div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-left"
+          data-aos-anchor-placement="center-bottom"
+        >
           <div className=" relative mx-auto w-full sm:w-[349px]">
             <div className="  w-full  h-[279px] rounded-20 bg-skin-dark-900 rotate-[8.159deg]"></div>
             <div

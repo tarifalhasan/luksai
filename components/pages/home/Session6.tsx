@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+
 import { useTranslations } from "next-intl";
 import Image from "next/image";
 
@@ -8,11 +9,26 @@ const HomeSession6 = () => {
     <section className=" py-8 relative overflow-hidden lg:py-12">
       <div className=" relative  space-y-6 container">
         <div className=" max-w-[781px] block mx-auto space-y-3">
-          <div>
+          <div
+            data-aos-duration="2000"
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+          >
             <h2 className=" text-center">{t("title")}</h2>
           </div>
-          <p className=" text-center">{t("description")}</p>
-          <div>
+          <p
+            data-aos-duration="2000"
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+            className=" text-center"
+          >
+            {t("description")}
+          </p>
+          <div
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             <Image
               width={696}
               height={463}
@@ -23,7 +39,12 @@ const HomeSession6 = () => {
             />
           </div>
           <div className=" flex justify-center">
-            <Button className=" bg-skin-dark-900 hover:bg-skin-dark-900/80  gap-4">
+            <Button
+              data-aos="fade-up"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+              className=" bg-skin-dark-900 hover:bg-skin-dark-900/80  gap-4"
+            >
               Schedule Demo Call{" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"

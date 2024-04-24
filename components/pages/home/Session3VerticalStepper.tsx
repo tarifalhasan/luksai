@@ -67,7 +67,7 @@ const Session3VerticalStepper = () => {
     <div className=" pt-8">
       <div className=" flex-col  sm:flex-row flex items-start gap-8">
         <div className=" grid  grid-cols-8  basis-[calc(30%-2rem)] ">
-          <div className=" col-span-1 w-1 h-full  "></div>
+          <div className=" col-span-1 w-1 h-full "></div>
           <div className=" relative after:absolute after:left-[-22%] after:w-1 after:h-full after:bg-skin-blue-gray col-span-7 flex max-w-[220px] after:z-10 flex-col gap-y-10">
             {data.map((item, index) => (
               <button
@@ -86,9 +86,8 @@ const Session3VerticalStepper = () => {
         </div>
         <div className=" basis-[calc(70%-2rem)] space-y-4">
           <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
+            data-aos-duration="2000"
+            data-aos="fade-down-right"
             className=" fade-animtion z-30 relative h-[320px] bg-cover bg-no-repeat bg-center  before:absolute  before:-z-10  before:bg-primary before:w-full before:h-full before:top-4 before:left-5 rounded-lg  before:rounded-lg w-full"
           >
             <div
@@ -101,7 +100,12 @@ const Session3VerticalStepper = () => {
               {data[activeTab].name}
             </p>
           </motion.div>
-          <p className=" pt-6 text-base text-skin-blue-gray font-normal">
+          <p
+            data-aos-duration="2000"
+            data-aos="fade-down"
+            data-aos-anchor-placement="center-bottom"
+            className=" pt-6 text-base text-skin-blue-gray font-normal"
+          >
             {data[activeTab].content.description}
           </p>
         </div>

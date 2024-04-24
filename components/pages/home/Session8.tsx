@@ -6,7 +6,12 @@ const HomeSession8 = ({ data }: { data: string[] }) => {
   return (
     <section className=" py-10  space-y-6 container">
       <div className=" max-w-[901px] block mx-auto space-y-3">
-        <div className=" space-y-4">
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+          className=" space-y-4"
+        >
           <h2 className=" text-center">{t("title")}</h2>
           <p className=" text-center text-skin-blue-gray">{t("description")}</p>
         </div>

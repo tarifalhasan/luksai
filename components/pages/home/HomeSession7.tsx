@@ -9,7 +9,14 @@ const HomeSession7 = ({ data }: { data: ITestimonial[] }) => {
       <div className="container">
         <div className=" py-6 max-w-[781px] block mx-auto space-y-3">
           <div>
-            <h2 className="  text-center">{t("title")}</h2>
+            <h2
+              data-aos-duration="2000"
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              className="  text-center"
+            >
+              {t("title")}
+            </h2>
           </div>
         </div>
       </div>
