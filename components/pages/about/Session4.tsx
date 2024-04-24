@@ -3,6 +3,8 @@ import { useMessages } from "next-intl";
 import Image from "next/image";
 import Link from "next/link";
 import { FaLinkedin } from "react-icons/fa6";
+import AnimationContainer from "../AnimationContainer";
+import AnimationItem from "../AnimationItem";
 
 const AboutSession4 = () => {
   const message = useMessages();
@@ -10,7 +12,11 @@ const AboutSession4 = () => {
   const data = message.OurTeam as unknown as ITeam[];
   return (
     <section className=" py-10 lg:py-16 bg-skin-navy-blue">
-      <div className=" flex flex-col items-center justify-center space-y-4">
+      <div
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-bottom"
+        className=" flex flex-col items-center justify-center space-y-4"
+      >
         <div>
           <h2 className=" text-center text-white">Our Team</h2>
         </div>
@@ -29,9 +35,9 @@ const AboutSession4 = () => {
           />
         </svg>
       </div>
-      <div className=" container pt-8 lg:pt-16 grid sm:grid-cols-2 gap-6">
+      <AnimationContainer containerClass=" container pt-8 lg:pt-16 grid sm:grid-cols-2 gap-6">
         {data.map((member) => (
-          <div
+          <AnimationItem
             key={member.id}
             className=" rounded-[16px] relative overflow-hidden bg-white flex items-center justify-between h-[151px]"
           >
@@ -59,9 +65,9 @@ const AboutSession4 = () => {
                 <FaLinkedin className=" w-[32px] h-[33px] text-skin-dark-900" />
               </Link>
             </div>
-          </div>
+          </AnimationItem>
         ))}
-      </div>
+      </AnimationContainer>
     </section>
   );
 };

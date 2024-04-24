@@ -1,6 +1,8 @@
 import { IWhyUs } from "@/interfaces";
 import { useMessages } from "next-intl";
 import Image from "next/image";
+import AnimationContainer from "../AnimationContainer";
+import AnimationItem from "../AnimationItem";
 
 const AboutSession3 = () => {
   const message = useMessages();
@@ -8,13 +10,17 @@ const AboutSession3 = () => {
   return (
     <section className="container space-y-9 overflow-hidden relative  pb-10 pt-10 lg:pb-[5rem] lg:pt-[6rem]">
       <div>
-        <h2 className=" text-center">
+        <h2
+          data-aos="fade-down"
+          data-aos-anchor-placement="top-bottom"
+          className=" text-center"
+        >
           Our <span className=" text-primary">Why</span>
         </h2>
       </div>
-      <div className=" relative z-20 py-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
+      <AnimationContainer containerClass=" relative z-20 py-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7">
         {data.map((item) => (
-          <div
+          <AnimationItem
             key={item.id}
             className=" bg-primary rounded-[16px] py-8 px-8  space-y-4"
           >
@@ -39,9 +45,9 @@ const AboutSession3 = () => {
                 {item.title}
               </p>
             </div>
-          </div>
+          </AnimationItem>
         ))}
-      </div>
+      </AnimationContainer>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="130"

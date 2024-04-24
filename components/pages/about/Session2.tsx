@@ -5,11 +5,19 @@ const AboutSession2 = () => {
   return (
     <section className="container space-y-9 relative overflow-hidden py-10">
       <div>
-        <h2 className=" text-center">
+        <h2
+          data-aos="fade-down"
+          data-aos-anchor-placement="top-bottom"
+          className=" text-center"
+        >
           Our <span className=" text-primary">Story</span>
         </h2>
       </div>
-      <div className=" relative z-20 lg:pb-6">
+      <div
+        data-aos="fade-down"
+        data-aos-anchor-placement="top-bottom"
+        className=" relative z-20 lg:pb-6"
+      >
         <p className=" text-center max-w-[979px] block mx-auto">
           {t("description")}
         </p>
