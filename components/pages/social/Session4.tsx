@@ -25,7 +25,11 @@ const SocialSession4 = () => {
         />
       </div>
       <div className=" py-10 lg:py-20 container space-y-4">
-        <div>
+        <div
+          data-aos-duration="2000"
+          data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom"
+        >
           <div>
             <p className=" text-skin-blue-gray text-sm lg:text-base text-center">
               {t("subTitle")}
@@ -41,7 +45,12 @@ const SocialSession4 = () => {
           </div>
         </div>
         <div className=" py-3"></div>
-        <div className=" grid mt-8 rounded-20 overflow-hidden  min-h-[240px] lg:min-h-[319px] relative  lg:grid-cols-2">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className=" grid mt-8 rounded-20 overflow-hidden  min-h-[240px] lg:min-h-[319px] relative  lg:grid-cols-2"
+        >
           <div className="  min-h-[240px] lg:min-h-[319px] overflow-hidden relative   bg-skin-navy-blue px-6 lg:px-12 flex flex-col justify-center">
             <div className=" space-y-4">
               <h3 className=" text-2xl lg:text-3xl xl:text-4xl text-skin-yellow-accent font-bold">

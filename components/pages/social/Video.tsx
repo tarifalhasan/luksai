@@ -12,7 +12,12 @@ const SocaialVideo = () => {
   };
   return (
     <div className=" px-4 pb-12 lg:-mt-[18rem] max-w-[800px] block mx-auto">
-      <AspectRatio ratio={16 / 9}>
+      <AspectRatio
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        ratio={16 / 9}
+      >
         {!videoLoaded && (
           <Image
             src={"/images/social/session-2/play.webp"}

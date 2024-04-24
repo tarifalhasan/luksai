@@ -6,7 +6,12 @@ const SocialSession1 = () => {
   return (
     <section className=" container   gap-8 py-10 lg:py-12 grid lg:grid-cols-2 ">
       <div className="  flex flex-col justify-end">
-        <div className=" space-y-4">
+        <div
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+          className=" space-y-4"
+        >
           <h2 className="  font-bold  xl:text-6xl text-skin-dark-900 max-w-[409.381px]">
             {t("title")}
           </h2>
