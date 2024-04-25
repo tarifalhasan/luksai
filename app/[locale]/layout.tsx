@@ -22,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang={locale} suppressHydrationWarning>
-      <head />
+      <head>
+        <link rel="icon" href="/images/logo.webp" sizes="any" />
+      </head>
 
       <AOSInit />
       <body
