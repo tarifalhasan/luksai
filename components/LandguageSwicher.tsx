@@ -18,7 +18,7 @@ const LocaleSwitcher = ({ path }: { path: any }) => {
             type="button"
             aria-label="open_locale"
             onClick={() => setIsOpen(!isOpen)}
-            className="inline-flex items-center h-12 justify-center w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-sm leading-5 font-medium text-gray-700 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition ease-in-out duration-150"
+            className="inline-flex items-center h-12 justify-center w-full rounded-md border border-gray-300 px-4 py-2 bg-white text-lg leading-5 font-medium text-gray-700 focus:outline-none focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50 transition ease-in-out duration-150"
             aria-haspopup="true"
             aria-expanded="true"
           >

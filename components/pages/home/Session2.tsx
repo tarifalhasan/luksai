@@ -5,19 +5,22 @@ const Session2 = () => {
   const t = useTranslations("HomeSection2");
   return (
     <section className="container">
-      <div className="  rounded-20  py-10 relative overflow-hidden my-5 lg:my-10 bg-[#F3F4F6] flex flex-col px-5 lg:flex-row gap-12  lg:justify-between lg:items-center ">
+      <div className="  rounded-20  py-10 lg:py-[8rem] relative overflow-hidden my-5 lg:my-10 bg-[#F3F4F6] flex flex-col px-5 lg:flex-row gap-12  lg:justify-between lg:items-center ">
         <div className=" w-full lg:w-1/2">
-          <div className=" relative z-20">
-            <div>
-              <Image
-                data-aos-duration="2000"
-                data-aos="fade-right"
-                width={574}
-                // className="absolute   h-auto max-h-[406px] left-1/2  bottom-0 -translate-x-1/2 "
-                height={535}
-                src={"/images/home/session-2/woman.webp"}
-                alt="women"
-              />
+          <div className=" relative  z-20">
+            <div className=" rounded-lg  block mx-auto w-[80%] sm:w-[60%] h-[280px] sm:h-[325.09px] bg-skin-dark-900 rotate-[-15deg]"></div>
+            <div className=" absolute  left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2  block mx-auto w-[80%]  rounded-lg  sm:w-[60%] h-[280px] sm:h-[325.09px] bg-skin-navy-blue ">
+              <div>
+                <Image
+                  width={274}
+                  className="absolute  z-50  h-auto max-h-[320px] lg:max-h-[450px] left-1/2  bottom-0 -translate-x-1/2 "
+                  height={500}
+                  src={
+                    "https://assets.luksai.com/images/website/home/session-2/woman.webp"
+                  }
+                  alt="men"
+                />
+              </div>
             </div>
           </div>
         </div>
