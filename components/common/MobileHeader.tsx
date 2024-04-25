@@ -42,7 +42,7 @@ const MobileHeader = () => {
         <div className=" inline-flex items-center gap-5">
           <Link href={"/"}>
             <Image
-              src={"/images/logo.webp"}
+              src={"https://assets.luksai.com/images/website/logo.webp"}
               alt="luksai logo"
               width={110}
               height={56}

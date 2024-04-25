@@ -22,7 +22,7 @@ const SocialSession1 = () => {
       </div>
       <div className="">
         <Image
-          src={"/images/social/session-1/hero.webp"}
+          src={"/images/social-hero.webp"}
           alt="We believe that everyone has a unique purpose that can transform
             lives. Luksai is a collaborative platform that connects the digital
             entrepreneur to social actions around the world."

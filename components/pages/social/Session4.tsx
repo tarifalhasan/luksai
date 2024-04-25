@@ -12,7 +12,9 @@ const SocialSession4 = () => {
           width={168}
           height={150}
           className=" absolute hidden lg:block top left-0"
-          src={"/images/social/session-4/ellipse.svg"}
+          src={
+            "https://assets.luksai.com/images/website/social/session-4/ellipse.svg"
+          }
           alt="dfkdnfd"
         />
 
@@ -20,7 +22,9 @@ const SocialSession4 = () => {
           width={200}
           height={200}
           className=" hidden lg:block absolute  top right-0"
-          src={"/images/social/session-4/star.svg"}
+          src={
+            "https://assets.luksai.com/images/website/social/session-4/star.svg"
+          }
           alt="dfkdnfd"
         />
       </div>
@@ -64,7 +68,9 @@ const SocialSession4 = () => {
               </Button>
             </div>
             <Image
-              src={"/images/social/session-4/line.svg"}
+              src={
+                "https://assets.luksai.com/images/website/social/session-4/line.svg"
+              }
               alt="line"
               width={273}
               height={138}
@@ -72,7 +78,7 @@ const SocialSession4 = () => {
               quality={80}
             />
           </div>
-          <div className=" min-h-[240px] lg:min-h-[319px]  w-full bg-cover bg-no-repeat bg-center bg-[url('/images/social/session-4/people.webp')] "></div>
+          <div className=" min-h-[240px] lg:min-h-[319px]  w-full bg-cover bg-no-repeat bg-center bg-[url('https://assets.luksai.com/images/website/social/session-4/people.webp')] "></div>
         </div>
       </div>
     </section>

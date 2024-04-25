@@ -13,7 +13,9 @@ const SolutionsSession5 = () => {
             data-aos-easing="ease-in-sine"
           >
             <Image
-              src={"/images/solutions/session-5/artboard.svg"}
+              src={
+                "https://assets.luksai.com/images/website/solutions/session-5/artboard.svg"
+              }
               width={539}
               height={403}
               quality={80}

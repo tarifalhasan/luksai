@@ -16,7 +16,9 @@ const AboutSession1 = () => {
             {t("title")}
           </p>
           <Image
-            src={"/images/about/session-1/line.svg"}
+            src={
+              "https://assets.luksai.com/images/website/about/session-1/line.svg"
+            }
             alt="line"
             width={273}
             height={138}
@@ -24,10 +26,12 @@ const AboutSession1 = () => {
             quality={80}
           />
         </div>
-        <div className="  min-h-[250px] lg:min-h-[399px] w-full bg-cover bg-no-repeat bg-center bg-[url('/images/about/session-1/people.webp')] "></div>
+        <div className="  min-h-[250px] lg:min-h-[399px] w-full bg-cover bg-no-repeat bg-center bg-[url('https://assets.luksai.com/images/website/about/session-1/people.webp')] "></div>
       </div>
       <Image
-        src={"/images/about/session-1/star.svg"}
+        src={
+          "https://assets.luksai.com/images/website/about/session-1/star.svg"
+        }
         alt="line"
         width={73}
         height={78}

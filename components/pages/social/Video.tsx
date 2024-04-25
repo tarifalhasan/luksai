@@ -20,7 +20,7 @@ const SocaialVideo = () => {
       >
         {!videoLoaded && (
           <Image
-            src={"/images/social/session-2/play.webp"}
+            src={"/images/play.webp"}
             alt="Play Video"
             className="w-full rounded-lg h-full cursor-pointer"
             width={800}

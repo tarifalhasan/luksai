@@ -11,7 +11,9 @@ const SolutionSession2 = () => {
           className=" w-full relative lg:w-1/2 "
         >
           <Image
-            src={"/images/solutions/session-2/platform.webp"}
+            src={
+              "https://assets.luksai.com/images/website/solutions/session-2/platform.webp"
+            }
             alt="platform"
             width={603}
             height={576}
@@ -22,7 +24,9 @@ const SolutionSession2 = () => {
             height={78}
             alt=""
             className=" hidden lg:block absolute top-0 right-2"
-            src={"/images/solutions/session-2/vector.svg"}
+            src={
+              "https://assets.luksai.com/images/website/solutions/session-2/vector.svg"
+            }
           />
         </div>
         <div

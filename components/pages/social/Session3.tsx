@@ -19,7 +19,9 @@ const SocialSession3 = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
-          src={"/images/social/session-3/dashboard.webp"}
+          src={
+            "https://assets.luksai.com/images/website/social/session-3/dashboard.webp"
+          }
           width={1140}
           height={405}
           quality={80}

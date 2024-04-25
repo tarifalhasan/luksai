@@ -33,7 +33,9 @@ const SolutionsSession6 = () => {
             data-aos-easing="ease-in-sine"
           >
             <Image
-              src={"/images/solutions/session-6/background.webp"}
+              src={
+                "https://assets.luksai.com/images/website/solutions/session-6/background.webp"
+              }
               width={695}
               height={585}
               quality={80}

@@ -19,7 +19,9 @@ const SocialSession2 = () => {
             </h4>
             <p className="text-center relative z-20">{t("description")}</p>
             <Image
-              src={"/images/social/session-2/vector.svg"}
+              src={
+                "https://assets.luksai.com/images/website/social/session-2/vector.svg"
+              }
               alt="Play Video"
               className=" absolute -bottom-20  z-10 right-6"
               width={76}

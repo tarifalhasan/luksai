@@ -24,7 +24,10 @@ const SolutionsHero = () => {
             width={859}
             height={738}
             alt="luksai bg"
-            src={"/images/solutions/session-1/background.webp"}
+            src={
+              "https://assets.luksai.com/images/website/solutions/session-1/background.webp"
+            }
+            quality={80}
           />
         </div>
       </div>

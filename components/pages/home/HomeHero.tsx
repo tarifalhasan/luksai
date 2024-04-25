@@ -70,7 +70,7 @@ const HomeHero = () => {
       >
         <div className=" relative">
           <Image
-            src={"/images/home/session-1/hero.webp"}
+            src={"/images/home-hero.webp"}
             alt="home hero"
             width={486}
             className=" mx-auto block"

@@ -11,7 +11,7 @@ const WhereToStartItems = ({ data }: { data: IWhereToStart[] }) => {
       initial="hidden"
       exit="exit"
       whileInView="show"
-      viewport={{ once: false, amount: 0.6 }}
+      viewport={{ once: true, amount: 0.6 }}
       className=" py-10 lg:py-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-9"
     >
       {data.map((item, index) => (

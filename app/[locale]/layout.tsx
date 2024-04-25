@@ -23,7 +23,11 @@ export default function RootLayout({
   return (
     <html lang={locale} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/images/logo.webp" sizes="any" />
+        <link
+          rel="icon"
+          href="https://assets.luksai.com/images/website/logo.webp"
+          sizes="any"
+        />
       </head>
 
       <AOSInit />

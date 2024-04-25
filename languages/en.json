@@ -87,19 +87,19 @@
       "name": "Registration",
       "description": "Register your personal and financial data on the platform",
       "id": 1,
-      "icon": "/images/home/session-10/registration.svg"
+      "icon": "https://assets.luksai.com/images/website/home/session-10/registration.svg"
     },
     {
       "name": "Create a Product",
       "description": "Create your digital product including your modules, lessons, videos, and supplemental materials",
       "id": 2,
-      "icon": "/images/home/session-10/create-product.svg"
+      "icon": "https://assets.luksai.com/images/website/home/session-10/create-product.svg"
     },
     {
       "name": "24/7 Support",
       "description": "Your sales link is automatically generated and can be added to your sales page",
       "id": 3,
-      "icon": "/images/home/session-10/support.svg"
+      "icon": "https://assets.luksai.com/images/website/home/session-10/support.svg"
     }
   ],
   "solutionsHero": {
@@ -140,27 +140,27 @@
   ],
   "SolutionsSection8Data": [
     {
-      "icon": "/images/solutions/session-8/integrated-payment.svg",
+      "icon": "https://assets.luksai.com/images/website/solutions/session-8/integrated-payment.svg",
       "title": "Integrated payment checkout with payment options - subscriptions, debit and credit cart, apple pay, google pay.",
       "id": 151
     },
     {
-      "icon": "/images/solutions/session-8/bundle.svg",
+      "icon": "https://assets.luksai.com/images/website/solutions/session-8/bundle.svg",
       "title": "Promote a bundle of digital products as a single package.",
       "id": 152
     },
     {
-      "icon": "/images/solutions/session-8/hosting.svg",
+      "icon": "https://assets.luksai.com/images/website/solutions/session-8/hosting.svg",
       "title": "Secure hosting of content and videos.",
       "id": 153
     },
     {
-      "icon": "/images/solutions/session-8/currency-exchange.svg",
+      "icon": "https://assets.luksai.com/images/website/solutions/session-8/currency-exchange.svg",
       "title": "Currency exchange so you can sell your product in different currencies.",
       "id": 154
     },
     {
-      "icon": "/images/solutions/session-8/connect.svg",
+      "icon": "https://assets.luksai.com/images/website/solutions/session-8/connect.svg",
       "title": "Connect to our marketing experts so they can assist in advertising your product.",
       "id": 155
     }
@@ -172,19 +172,19 @@
   "AboutSession3": [
     {
       "name": "What?",
-      "icon": "/images/about/session-3/what.svg",
+      "icon": "https://assets.luksai.com/images/website/about/session-3/what.svg",
       "title": "Intuitive and secure online platform for hosting digital products such as Mentorship and online courses.",
       "id": 300
     },
     {
       "name": "As?",
-      "icon": "/images/about/session-3/as.svg",
+      "icon": "https://assets.luksai.com/images/website/about/session-3/as.svg",
       "title": "Distributing valuable knowledge with a focus on developing people around the world.",
       "id": 301
     },
     {
       "name": "Why?",
-      "icon": "/images/about/session-3/why.svg",
+      "icon": "https://assets.luksai.com/images/website/about/session-3/why.svg",
       "title": "We believe that scarcity in the world is not only related to the poor distribution of wealth, but to the poor distribution of knowledge.",
       "id": 302
     }
@@ -195,42 +195,42 @@
       "id": 400,
       "role": "CEO & Co-Founder",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/talita-meira.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/talita-meira.webp"
     },
     {
       "name": "Lao Reis",
       "id": 401,
       "role": "CTO & Co-Founder",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/lao-reis.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/lao-reis.webp"
     },
     {
       "name": "Ariane Nascimento",
       "id": 402,
       "role": "Administration Officer",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/ariane-nascimento.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/ariane-nascimento.webp"
     },
     {
       "name": "Guilherme Couto",
       "id": 403,
       "role": "IT Manager",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/guilherme-couto.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/guilherme-couto.webp"
     },
     {
       "name": "Leia Santos",
       "id": 404,
       "role": "Customer Relationship Manager",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/leia-santos.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/leia-santos.webp"
     },
     {
       "name": "Renata Reis",
       "id": 405,
       "role": "Marketing Manager",
       "linkedin": "https://linkedin.com/tarifalhasanjs",
-      "avatar": "/images/about/session-4/renata-reis.webp"
+      "avatar": "https://assets.luksai.com/images/website/about/session-4/renata-reis.webp"
     }
   ],
   "SocialSection1": {

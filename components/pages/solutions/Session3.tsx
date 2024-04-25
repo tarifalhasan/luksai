@@ -15,19 +15,19 @@ const SolutionsSession3 = () => {
       name: "Intuitive and simple",
       title:
         "In a few clicks you are able to put your digital product to sell.",
-      icon: "/images/solutions/session-3/intuitive-and-simple.svg",
+      icon: "https://assets.luksai.com/images/website/solutions/session-3/intuitive-and-simple.svg",
     },
     {
       name: "Secure Hosting",
       title:
         "Your intellectual property is our priority. Therefore, we guarantee the security of your data using secure and encrypted hosting.",
-      icon: "/images/solutions/session-3/secure-hosting.svg",
+      icon: "https://assets.luksai.com/images/website/solutions/session-3/secure-hosting.svg",
     },
     {
       name: "Integrated Checkout",
       title:
         "We make your financial management easier. All in one simple and fast platform.",
-      icon: "/images/solutions/session-3/integrated-checkout.svg",
+      icon: "https://assets.luksai.com/images/website/solutions/session-3/integrated-checkout.svg",
     },
   ];
   return (
@@ -53,9 +53,11 @@ const SolutionsSession3 = () => {
                 key={slide.name}
                 className=" basis-full lg:basis-[25%] bg-white  rounded-[1rem] flex flex-col items-center justify-center py-10 gap-5"
               >
-                <div className="">
+                <div className=" relative">
                   <div className=" w-14 h-14 rounded-full bg-[#DEFBFB]"></div>
                   <Image
+                    quality={80}
+                    className=" absolute top-3 -right-3"
                     src={slide.icon}
                     alt={slide.name}
                     width={47}

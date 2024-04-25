@@ -18,7 +18,7 @@ const AnimationContainer = ({
       exit="exit"
       whileInView="show"
       className={containerClass}
-      viewport={{ once: false, amount: 0.6 }}
+      viewport={{ once: true, amount: 0 }}
     >
       {children}
     </m.div>

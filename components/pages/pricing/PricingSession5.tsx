@@ -21,8 +21,10 @@ const PricingSession5 = () => {
               width={274}
               className="absolute   h-auto max-h-[406px] left-1/2  bottom-0 -translate-x-1/2 "
               height={500}
-              src={"/images/Manual de Vendas.webp"}
-              alt="women"
+              src={
+                "https://assets.luksai.com/images/website/pricing/session-4/man.webp"
+              }
+              alt="men"
             />
           </div>
         </div>
