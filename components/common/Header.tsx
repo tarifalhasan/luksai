@@ -5,6 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import LocaleSwitcher from "../LandguageSwicher";
 import { Button } from "../ui/button";
 
 const Header = () => {
@@ -135,6 +136,7 @@ const Header = () => {
               </svg>
             </Button>
           </Link>
+          <LocaleSwitcher path={`/${pathName.split("/").slice(2).join("/")}`} />
         </div>
       </div>
     </header>

@@ -1,0 +1,262 @@
+{
+  "HomeSection1": {
+    "title": "Compartilhe seu conhecimento e torne-se um empreendedor digital",
+    "description": "Seja um multiplicador de talentos e impacte milhares de pessoas compartilhando seus anos de experiência profissional em um produto digital.",
+    "satisfied_user": "Mais de 10 mil usuários satisfeitos"
+  },
+  "HomeSection2": {
+    "title": "Construa seu legado enquanto monetiza seu conhecimento",
+    "description": "Crie produtos digitais e impacte a vida de muitos com o Luksai, uma plataforma intuitiva para gerenciar e vender produtos digitais."
+  },
+  "HomeSection3": {
+    "title": "Produtos digitais vão além de cursos online",
+    "description": "Algumas pessoas só associam produtos digitais a cursos online. No entanto, os formatos de entrega vão além disso."
+  },
+  "HomeSession4": {
+    "title": "Crie seu próprio legado hoje!",
+    "description": "Crie uma conta gratuitamente",
+    "btnText": "Começar"
+  },
+  "HomeSession5": {
+    "title": "Uma plataforma intuitiva para acelerar seus resultados",
+    "description": "Entendemos as dificuldades e obstáculos que os novos empreendedores digitais enfrentam neste mercado. Pensando no seu sucesso, criamos uma plataforma intuitiva para ajudá-lo a gerenciar e vender seu conhecimento enquanto constrói um legado."
+  },
+  "HomeSession6": {
+    "title": "Agende uma Chamada de Demonstração com um de nossos membros da equipe",
+    "description": "Estamos aqui para mostrar como você pode alavancar seu produto digital."
+  },
+  "HomeSession7": {
+    "title": "O que as pessoas estão dizendo sobre o Luksai"
+  },
+  "testimonialsData": [
+    {
+      "title": "O Luksai é uma plataforma incrível, me ajudou a conseguir clientes em diferentes países. E agora eu ajudo pessoas ao redor do mundo. E não apenas isso, mas também tenho um incrível suporte da equipe Luksai, sempre há alguém para me ajudar a qualquer momento.",
+      "author": {
+        "name": "Sophia Pacheco",
+        "role": "Coach de Carreira",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "O Luksai é uma plataforma incrível, me ajudou a conseguir clientes em diferentes países. E agora eu ajudo pessoas ao redor do mundo. E não apenas isso, mas também tenho um incrível suporte da equipe Luksai, sempre há alguém para me ajudar a qualquer momento.",
+      "author": {
+        "name": "Andrew Huang",
+        "role": "Coach de Carreira",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "O Luksai é uma plataforma incrível, me ajudou a conseguir clientes em diferentes países. E agora eu ajudo pessoas ao redor do mundo. E não apenas isso, mas também tenho um incrível suporte da equipe Luksai, sempre há alguém para me ajudar a qualquer momento.",
+      "author": {
+        "name": "Andrew Huang",
+        "role": "Artista",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    },
+    {
+      "title": "Podemos ser contatados por telefone, e-mail ou WhatsApp. Você pode nos enviar os documentos. Atualmente, estamos disponíveis para responder suas perguntas",
+      "author": {
+        "name": "Andrew Huang",
+        "role": "Artista",
+        "avatar": "/images/home/session-7/woman-1.webp"
+      }
+    }
+  ],
+  "HomeSession8": {
+    "title": "Você não precisa de milhares de seguidores para começar seu negócio online",
+    "description": "Luksai é para você, se você é..."
+  },
+  "HomeSession8Data": [
+    "Coach",
+    "Mentor",
+    "Criador de Conteúdo",
+    "Proprietário de Negócios",
+    "Influenciador",
+    "Fundador"
+  ],
+  "HomeSession9": {
+    "title": "Diversifique suas fontes de renda",
+    "description": "Ajude pessoas ao redor do mundo com sua experiência de uma forma mais próxima, criando mentorias em grupo, sessões individuais ou cursos online."
+  },
+  "HomeSession10": {
+    "title": "Seu programa digital sem custo inicial em poucos minutos",
+    "description": "Por onde começar?"
+  },
+  "WhereToStartData": [
+    {
+      "name": "Cadastro",
+      "description": "Registre seus dados pessoais e financeiros na plataforma",
+      "id": 1,
+      "icon": "/images/home/session-10/registration.svg"
+    },
+    {
+      "name": "Criar um Produto",
+      "description": "Crie seu produto digital, incluindo módulos, lições, vídeos e materiais complementares",
+      "id": 2,
+      "icon": "/images/home/session-10/create-product.svg"
+    },
+    {
+      "name": "Suporte 24/7",
+      "description": "Seu link de vendas é gerado automaticamente e pode ser adicionado à sua página de vendas",
+      "id": 3,
+      "icon": "/images/home/session-10/support.svg"
+    }
+  ],
+  "solutionsHero": {
+    "title": "Soluções para Criadores de Conteúdo Digital",
+    "description": "Luksai está dedicada a capacitar você com ferramentas de ponta para monetizar sua expertise e criar experiências de aprendizagem personalizadas. Nossa plataforma foi construída para ajudá-lo a criar, gerenciar e vender seus produtos digitais, permitindo que você se concentre no que faz de melhor - inspirar e orientar outras pessoas."
+  },
+  "AdditionalFeatures": [
+    {
+      "title": "Integração de E-mail",
+      "description": "Facilite a comunicação integrando perfeitamente serviços de e-mail com nossa plataforma.",
+
+      "id": 145
+    },
+    {
+      "title": "Usuários Administrativos",
+      "description": "Capacite sua equipe com acesso administrativo especializado, permitindo que eles gerenciem cursos, monitorem o progresso dos alunos e analisem métricas de engajamento.",
+      "id": 146
+    },
+    {
+      "title": "Recuperação de Carrinho Abandonado",
+      "description": "Aumente suas taxas de conversão capturando vendas perdidas potenciais com nosso recurso de recuperação de carrinho abandonado.",
+      "id": 147
+    },
+    {
+      "title": "Ofertas de Pacotes",
+      "description": "Promova uma coleção de ofertas digitais como um pacote unificado, permitindo que os clientes comprem vários produtos juntos com uma taxa reduzida.",
+      "id": 148
+    },
+    {
+      "title": "Plano de Pagamento",
+      "description": "Ofereça seus produtos com a conveniência de planos de pagamento fixos, concedendo aos alunos maior flexibilidade no gerenciamento de suas finanças ao acessar seu treinamento.",
+      "id": 149
+    },
+    {
+      "title": "Pagamento por Assinatura",
+      "description": "Ofereça seu conteúdo através de assinaturas semanais, mensais ou anuais, proporcionando acesso contínuo aos seus cursos e promovendo o engajamento a longo prazo.",
+      "id": 150
+    }
+  ],
+  "SolutionsSection8Data": [
+    {
+      "icon": "/images/solutions/session-8/integrated-payment.svg",
+      "title": "Checkout de pagamento integrado com opções de pagamento - assinaturas, cartão de débito e crédito, apple pay, google pay.",
+      "id": 151
+    },
+    {
+      "icon": "/images/solutions/session-8/bundle.svg",
+      "title": "Promova um pacote de produtos digitais como um único pacote.",
+      "id": 152
+    },
+    {
+      "icon": "/images/solutions/session-8/hosting.svg",
+      "title": "Hospedagem segura de conteúdo e vídeos.",
+      "id": 153
+    },
+    {
+      "icon": "/images/solutions/session-8/currency-exchange.svg",
+      "title": "Câmbio de moeda para que você possa vender seu produto em diferentes moedas.",
+      "id": 154
+    },
+    {
+      "icon": "/images/solutions/session-8/connect.svg",
+      "title": "Conecte-se aos nossos especialistas em marketing para que eles possam ajudar na divulgação do seu produto.",
+      "id": 155
+    }
+  ],
+  "PricingSession5": {
+    "title": "Experimente gratuitamente e faça upgrade a qualquer momento",
+    "description": "Explore os recursos do Luksai e inicie seu negócio de cursos online hoje."
+  },
+  "AboutSession3": [
+    {
+      "name": "O quê?",
+      "icon": "/images/about/session-3/what.svg",
+      "title": "Plataforma online intuitiva e segura para hospedar produtos digitais, como Mentorias e cursos online.",
+      "id": 300
+    },
+    {
+      "name": "Como?",
+      "icon": "/images/about/session-3/as.svg",
+      "title": "Distribuindo conhecimento valioso com foco no desenvolvimento de pessoas ao redor do mundo.",
+      "id": 301
+    },
+    {
+      "name": "Por quê?",
+      "icon": "/images/about/session-3/why.svg",
+      "title": "Acreditamos que a escassez no mundo não está apenas relacionada à má distribuição de riquezas, mas à má distribuição de conhecimento.",
+      "id": 302
+    }
+  ],
+  "OurTeam": [
+    {
+      "name": "Talita Meira",
+      "id": 400,
+      "role": "CEO e Co-fundadora",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/talita-meira.webp"
+    },
+    {
+      "name": "Lao Reis",
+      "id": 401,
+      "role": "CTO e Co-fundador",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/lao-reis.webp"
+    },
+    {
+      "name": "Ariane Nascimento",
+      "id": 402,
+      "role": "Oficial de Administração",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/ariane-nascimento.webp"
+    },
+    {
+      "name": "Guilherme Couto",
+      "id": 403,
+      "role": "Gerente de TI",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/guilherme-couto.webp"
+    },
+    {
+      "name": "Leia Santos",
+      "id": 404,
+      "role": "Gerente de Relacionamento com o Cliente",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/leia-santos.webp"
+    },
+    {
+      "name": "Renata Reis",
+      "id": 405,
+      "role": "Gerente de Marketing",
+      "linkedin": "https://linkedin.com/tarifalhasanjs",
+      "avatar": "/images/about/session-4/renata-reis.webp"
+    }
+  ],
+  "SocialSection1": {
+    "title": "Não se trata de negócios. Trata-se de pessoas",
+    "description": "Acreditamos que todos têm um propósito único que pode transformar vidas. Luksai é uma plataforma colaborativa que conecta o empreendedor digital a ações sociais ao redor do mundo."
+  },
+  "SocialSection2": {
+    "title": "Acreditamos que a escassez no mundo não está apenas relacionada à má distribuição de renda, mas à má distribuição de conhecimento.",
+    "description": "Luksai oferece uma solução abrangente para a expansão do seu negócio digital, apoiando simultaneamente o bem-estar da comunidade. Auxiliamos igrejas e ONGs, facilitando sua missão de mudar vidas através da educação, e conectamos criadores digitais a essas iniciativas sociais, promovendo o retorno à comunidade."
+  },
+  "SocialSection3": {
+    "title": "Impacto Social",
+    "description": "Como um 'Negócio parao Bem', incentivamos nossos criadores a fazerem um impacto social positivo na sociedade doando uma parte de seus lucros para várias ONGs sérias com as quais nos associamos. Oferecemos a possibilidade para nossos criadores escolherem uma porcentagem do lucro de cada um de seus produtos digitais para retribuir às comunidades que estão desenvolvendo algo bom."
+  },
+  "SocialSection4": {
+    "title": "Seu plano começando hoje",
+    "description": "Junte-se à nossa missão de iluminar e capacitar! Agende uma ligação conosco hoje para explorar como você pode alinhar sua criatividade digital com nossa rede de igrejas e ONGs, e fazer uma diferença duradoura através do conhecimento.",
+    "subTitle": "Como colaborar?",
+    "contentTitle": "Construtores de Pontes",
+    "contentDescription": "Vamos colaborar para preencher a lacuna de conhecimento e transformar vidas juntos."
+  },
+  "AboutSession1": {
+    "title": "Luksai surgiu nos corações dos fundadores Talita e Lao em 2020 e, logo depois, impulsionou um grupo de pessoas que acreditaram na ideia a unirem esforços para tornar esse sonho realidade o mais rápido possível."
+  },
+  "AboutSession2": {
+    "description": "Luksai nasceu da combinação desses dois corações brasileiros apaixonados por educação onde vivem na Austrália. 2020 foi um ano desafiador para todos, e não foi diferente para Talita e Lao. No entanto, ao verem o ensino tradicional se abrindo para o ensino online, viram o momento como uma oportunidade de contribuir para o desenvolvimento das pessoas através da educação."
+  }
+}

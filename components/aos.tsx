@@ -10,6 +10,8 @@ export const AOSInit = () => {
       easing: "ease",
       duration: 600,
       once: true,
+      delay: 0,
+      mirror: false,
     });
   }, []);
 
