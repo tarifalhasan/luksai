@@ -7,8 +7,9 @@ import { useEffect } from "react";
 export const AOSInit = () => {
   useEffect(() => {
     AOS.init({
-      easing: "ease-out-quad",
-      duration: 1000,
+      easing: "ease",
+      duration: 600,
+      once: true,
     });
   }, []);
 
