@@ -16,7 +16,9 @@ const HomeSession4 = () => {
           >
             <Image
               className=" max-h-[480px] absolute bottom-0 left-1/2 -translate-x-1/2"
-              src={"/images/home/session-4/woman.webp"}
+              src={
+                "https://assets.luksai.com/images/website/home/session-4/woman.webp"
+              }
               height={480}
               alt="wemen"
               width={332}

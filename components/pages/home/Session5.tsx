@@ -22,7 +22,9 @@ const HomeSession5 = () => {
           className=" relative"
         >
           <Image
-            src={"/images/home/session-5/dashboard.webp"}
+            src={
+              "https://assets.luksai.com/images/website/home/session-5/dashboard.webp"
+            }
             alt="dashboard"
             width={585}
             height={444}
@@ -31,7 +33,9 @@ const HomeSession5 = () => {
           />
           <div className=" absolute left-0 bottom-0 h-auto">
             <Image
-              src={"/images/home/session-5/card.svg"}
+              src={
+                "https://assets.luksai.com/images/website/home/session-5/card.svg"
+              }
               alt="dashboard"
               width={243}
               className=" max-w-[8rem] sm:max-w-[10rem] lg:max-w-[12rem]"
@@ -42,7 +46,9 @@ const HomeSession5 = () => {
 
           <div className=" absolute right-0 -bottom-8 h-auto">
             <Image
-              src={"/images/home/session-5/kpi.webp"}
+              src={
+                "https://assets.luksai.com/images/website/home/session-5/kpi.webp"
+              }
               alt="dashboard"
               className=" max-w-[8rem] sm:max-w-[10rem] lg:max-w-[12rem"
               width={243}

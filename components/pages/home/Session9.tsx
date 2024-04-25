@@ -8,18 +8,19 @@ const HomeSession9 = () => {
       name: "One on One Sessions",
       id: 1,
       imageSrc:
-        "https://imgs.search.brave.com/0uIWgZrvK6CqYXag7OoZ94S5pxg-5WKtUEONzSN46Gw/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/MTVmaXZlLmNvbS9i/bG9nL3dwLWNvbnRl/bnQvdXBsb2Fkcy8y/MDE3LzA2L3NodXR0/ZXJzdG9ja19vbmUt/b24tb25lLW1lZXRp/bmctMS5qcGc",
+        "https://assets.luksai.com/images/website/home/session-9/online-course.webp",
     },
     {
       name: "Group Mentoring",
       id: 2,
-      imageSrc: "/images/home/session-9/online-course.webp",
+      imageSrc:
+        "https://assets.luksai.com/images/website/home/session-9/online-course.webp",
     },
     {
       name: "Online Courses",
       id: 3,
       imageSrc:
-        "https://imgs.search.brave.com/_uw9gKrgvekrPcKWbJauw4oOAVXdgv1DgQz_nP70XrI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMTIw/MzM3MzIwNS9waG90/by9idXNpbmVzcy12/aWRlby1jb25mZXJl/bmNlLmpwZz9zPTYx/Mng2MTImdz0wJms9/MjAmYz1zT3hEYlcy/THlneDBhbXJEbEtp/LTBka0VpcjRJMzIy/bS1pbHhhZ2piUk4w/PQ",
+        "https://assets.luksai.com/images/website/home/session-9/online-course.webp",
     },
   ];
 

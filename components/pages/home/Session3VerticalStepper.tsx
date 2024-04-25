@@ -12,7 +12,8 @@ const Session3VerticalStepper = () => {
       content: {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
-        imageSrc: "/images/home/session-3/digital-download.webp",
+        imageSrc:
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
     {
@@ -22,7 +23,7 @@ const Session3VerticalStepper = () => {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
         imageSrc:
-          "https://imgs.search.brave.com/7n6WGnewQy4LrwnwkKYX8o3thtVQ-UaCfCTBpc5jXfo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/MjQxNzgyMzIzNjMt/MWZiMmIwNzViNjU1/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TW54OGJX/VnVkRzl5YVc1bmZH/VnVmREI4ZkRCOGZI/d3c",
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
     {
@@ -32,7 +33,7 @@ const Session3VerticalStepper = () => {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
         imageSrc:
-          "https://imgs.search.brave.com/-A9LuRei9GNTUReFuumCvphkO1oZXZqKlcmTTjsgSDk/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4u/d2luZG93c3JlcG9y/dC5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjAvMDQvbWlj/cm9zb2Z0LWRpZ2l0/YWwtaW1hZ2UtODg2/eDU5MC5qcGc",
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
     {
@@ -41,7 +42,8 @@ const Session3VerticalStepper = () => {
       content: {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
-        imageSrc: "/images/home/session-3/group-mentoring.webp",
+        imageSrc:
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
     {
@@ -50,7 +52,8 @@ const Session3VerticalStepper = () => {
       content: {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
-        imageSrc: "/images/home/session-3/group-mentoring.webp",
+        imageSrc:
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
     {
@@ -59,7 +62,8 @@ const Session3VerticalStepper = () => {
       content: {
         description:
           "One-to-one mentoring involves a process between a mentor who helps your mentee solve a problem or improve your performance. It focuses on exchanging knowledge and experience on a particular subject or area, showing the best ways to deal with various circumstances. At Luksai, your mentees will have their own access environment where they can re-watch the recording of their session, as well as benefit from the tools and assessments that you offer especially for them.",
-        imageSrc: "/images/home/session-3/group-mentoring.webp",
+        imageSrc:
+          "https://assets.luksai.com/images/website/home/session-3/digital-download.webp",
       },
     },
   ];

@@ -35,7 +35,9 @@ const HomeSession6 = () => {
               quality={80}
               className=" max-w-[20rem] lg:max-w-[34em]  xl:max-w-[40rem] 2xl:max-w-[44rem] block mx-auto lg:w-full object-cover"
               alt="Schedule a Demo Call with one of our team members"
-              src={"/images/home/session-6/person-call.webp"}
+              src={
+                "https://assets.luksai.com/images/website/home/session-6/person-call.webp"
+              }
             />
           </div>
           <div className=" flex justify-center">
@@ -66,32 +68,40 @@ const HomeSession6 = () => {
           height={115}
           className=" hidden  lg:block absolute -right-10 top-[60%]"
           quality={80}
-          src={"/images/home/session-6/person-1.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-1.webp"
+          }
+          alt="person1"
         />
         <Image
           width={80}
           height={108}
           className=" absolute  hidden  lg:block -left-10 top-[55%]"
           quality={80}
-          src={"/images/home/session-6/person-2.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-2.webp"
+          }
+          alt="person 2"
         />
         <Image
           width={60}
           height={80}
           className=" absolute  hidden  lg:block left-[10%] top-[62%]"
           quality={80}
-          src={"/images/home/session-6/person-5.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-5.webp"
+          }
+          alt="person 5"
         />
         <Image
           width={60}
           height={80}
           className=" absolute  hidden  lg:block left-[10%] top-[42%]"
           quality={80}
-          src={"/images/home/session-6/person-6.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-6.webp"
+          }
+          alt="person 6"
         />
 
         <Image
@@ -99,16 +109,20 @@ const HomeSession6 = () => {
           height={80}
           className=" absolute  hidden  lg:block right-[10%] top-[70%]"
           quality={80}
-          src={"/images/home/session-6/person-3.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-3.webp"
+          }
+          alt="person 3"
         />
         <Image
           width={60}
           height={80}
           className=" absolute   hidden  lg:block right-[5%] top-[45%]"
           quality={80}
-          src={"/images/home/session-6/person-4.webp"}
-          alt=""
+          src={
+            "https://assets.luksai.com/images/website/home/session-6/person-4.webp"
+          }
+          alt="person 4"
         />
       </div>
       <svg

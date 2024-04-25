@@ -8,13 +8,9 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "cdn.sanity.io",
+        hostname: "assets.luksai.com",
         port: "",
-      },
-      {
-        protocol: "https",
-        hostname: "imgs.search.brave.com",
-        port: "",
+        pathname: "/images/website/**",
       },
     ],
   },
